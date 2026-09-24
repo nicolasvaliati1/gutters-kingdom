@@ -1,9 +1,9 @@
 // Category → service data model. Ten gutter categories, thirty services.
 //
-// Price ranges, timeframes, and warranty terms below are PLACEHOLDER
-// figures based on typical US residential gutter work. Confirm them
-// against the real installer network before publishing (see
-// references/stats.md).
+// Price ranges are market estimates set in September 2026 from published
+// Orlando and Florida competitor pricing (see references/stats.md).
+// Timeframes and warranty terms are the business's own. Revisit the ranges
+// once the real installer network provides numbers.
 //
 // Price ranges must keep the "$X – $Y" format: the city-service page splits
 // on " – " to show a "Starting At" figure. Warranty strings must keep the
@@ -143,11 +143,11 @@ export const categories: Category[] = [
           "First-time gutter systems for homes with no gutters, measured to the roofline with downspouts placed where water can drain away from the foundation.",
         overview:
           "A new gutter installation puts a drainage system on a house that never had one, or has lost the old one entirely. The installer walks the roofline, marks where each downspout will land, and forms seamless aluminum gutters from a coil to the exact length of each run. Hidden hangers go in every 24 inches or closer, and the run is pitched about a quarter inch per ten feet toward the downspout. Water leaves the roof edge in a controlled path instead of splashing onto siding, landscaping, and the foundation.",
-        priceRange: "$1,200 – $4,500",
+        priceRange: "$900 – $3,200",
         timeframe: "1–2 Days",
         warranty: "5-Year Warranty",
         priceScopeParagraphs: [
-          "A whole-house installation typically runs $1,200 to $4,500, priced mostly by linear feet of gutter and the number of downspouts. A single-story ranch with 140 feet of roofline lands near the low end; a two-story home with a complex roofline and eight downspouts lands near the high end.",
+          "A whole-house installation typically runs $900 to $3,200, priced mostly by linear feet of gutter and the number of downspouts. A single-story ranch with 140 feet of roofline lands near the low end; a two-story home with a complex roofline and eight downspouts lands near the high end.",
           "Second-story work, steep roofs, and rooflines with many corners add time. Every inside and outside corner adds a seam to seal, so a cut-up roof costs more per foot than a plain rectangle.",
         ],
         considerationsIntro:
@@ -197,7 +197,7 @@ export const categories: Category[] = [
           "Old materials and cut-offs hauled away daily",
         ],
         faqs: [
-          { question: "How much does a new gutter installation cost?", answer: "Typically $1,200 to $4,500 for a whole house, depending mostly on linear feet, gutter size, and downspout count." },
+          { question: "How much does a new gutter installation cost?", answer: "Typically $900 to $3,200 for a whole house, depending mostly on linear feet, gutter size, and downspout count." },
           { question: "Are seamless gutters worth it over sectional?", answer: "For most homes, yes. Seamless runs have seams only at corners and outlets, which means far fewer places to leak." },
           { question: "How long do new aluminum gutters last?", answer: "Twenty years or more when installed with proper pitch and hanger spacing and kept reasonably clear of debris." },
           { question: "Do new gutters need a permit?", answer: "Usually not, but some cities and HOAs regulate exterior changes. Confirm before you choose a color or profile." },
@@ -211,11 +211,11 @@ export const categories: Category[] = [
           "Full tear-off of worn, rusted, or pulling-away gutters and a new seamless system hung on solid fascia, with the old material hauled away.",
         overview:
           "Gutter replacement is the right call when the old system is failing along most of its length: rust-through, runs pulling away from the house, or repairs that keep coming back. The crew removes the old gutters and downspouts, inspects and repairs the fascia underneath, and installs a new seamless system sized to the roof. Replacement is usually a chance to fix what caused the failure, whether that was undersized gutters, too few downspouts, or a pitch that never worked.",
-        priceRange: "$1,500 – $5,500",
+        priceRange: "$1,100 – $3,800",
         timeframe: "1–2 Days",
         warranty: "5-Year Warranty",
         priceScopeParagraphs: [
-          "Replacement typically runs $1,500 to $5,500, a few hundred dollars more than a new install on the same house because of tear-off, disposal, and fascia work. The range follows linear feet and downspout count.",
+          "Replacement typically runs $1,100 to $3,800, a few hundred dollars more than a new install on the same house because of tear-off, disposal, and fascia work. The range follows linear feet and downspout count.",
           "Fascia repair is the swing factor. Behind an old gutter that's leaked for years, the wood is often soft, and replacing a few boards adds cost before the new system can go up.",
         ],
         considerationsIntro:
@@ -274,11 +274,11 @@ export const categories: Category[] = [
           "Gutters for concrete and clay tile roofs, hung from the fascia or rafter tails so no tile gets drilled, lifted, or cracked.",
         overview:
           "Tile roofs are common across Central Florida, and they change how gutters mount. Tile overhangs the roof edge and sheds water faster and farther than shingle, and the fascia behind it can be set back or sloped, so a standard hidden hanger has nothing to clip to. The installer uses fascia-mounted or rafter-tail brackets, works from a ladder or lift instead of walking on the tile, and often pairs the system with a wider gutter so heavy rain lands in the trough instead of past it.",
-        priceRange: "$1,800 – $6,000",
+        priceRange: "$1,500 – $4,800",
         timeframe: "1–3 Days",
         warranty: "5-Year Warranty",
         priceScopeParagraphs: [
-          "Tile roof installations typically run $1,800 to $6,000 for a whole house, roughly 20 to 40 percent above the same house with shingles. The difference is slower, more careful mounting and, often, six-inch gutters.",
+          "Tile roof installations typically run $1,500 to $4,800 for a whole house, roughly 20 to 40 percent above the same house with shingles. The difference is slower, more careful mounting and, often, six-inch gutters.",
           "Homes with complex rooflines or a fascia that needs repair sit at the high end. Tile that is already cracked is a roofer's job to repair, not the gutter installer's.",
         ],
         considerationsIntro: "What shapes a tile-roof gutter job:",
@@ -371,11 +371,11 @@ export const categories: Category[] = [
           "Coil-formed aluminum gutters in a baked-on color, cut to the length of each run and hung on hidden hangers, with seams only at corners and outlets.",
         overview:
           "Seamless aluminum is the default choice for most homes. It doesn't rust, holds a baked-on color for years, and is light enough to hang cleanly on a long run. The crew forms each run from a coil on site, cuts it to length, and hangs it with hidden hangers along the fascia. Corners and end caps get sealed by hand, which is the one place a seamless system can still leak if the sealant work is careless.",
-        priceRange: "$1,200 – $4,000",
+        priceRange: "$900 – $3,000",
         timeframe: "1–2 Days",
         warranty: "5-Year Warranty",
         priceScopeParagraphs: [
-          "Seamless aluminum typically runs $1,200 to $4,000 for a whole house, priced per linear foot with extra for corners and downspouts. Most homeowners land between $7 and $12 per foot installed.",
+          "Seamless aluminum typically runs $900 to $3,000 for a whole house, priced per linear foot with extra for corners and downspouts. Most homeowners land between $6 and $12 per foot installed.",
           "Heavier gauge and six-inch profiles add to the per-foot number. Custom colors add a little more than white or brown.",
         ],
         considerationsIntro: "Decisions that change the price and the finish:",
@@ -429,11 +429,11 @@ export const categories: Category[] = [
           "Formed copper gutters and downspouts that weather to a natural patina, built to outlast the roof under them and priced accordingly.",
         overview:
           "Copper is the long-term option: it can last 50 years or more, never needs painting, and develops a brown-to-green patina as it weathers. It's also several times the cost of aluminum. Copper gutters are formed and soldered by a crew that knows the material, and they must be kept away from aluminum and galvanized steel, because contact between dissimilar metals corrodes the weaker one.",
-        priceRange: "$4,500 – $16,000",
+        priceRange: "$4,000 – $14,000",
         timeframe: "2–4 Days",
         warranty: "5-Year Warranty",
         priceScopeParagraphs: [
-          "Copper typically runs $4,500 to $16,000 for a whole house, at roughly $25 to $40 per linear foot installed. Half-round and custom profiles cost more than K-style.",
+          "Copper typically runs $4,000 to $14,000 for a whole house, at roughly $25 to $50 per linear foot installed. Half-round and custom profiles cost more than K-style.",
           "Soldered joints and hand-formed corners take longer than sealed aluminum, which is where much of the labor cost goes.",
         ],
         considerationsIntro: "What to think through before choosing copper:",
@@ -489,11 +489,11 @@ export const categories: Category[] = [
           "Six-inch gutters with larger downspouts for steep roofs, large roof planes, and heavy-rain climates where a five-inch gutter overflows.",
         overview:
           "A six-inch K-style gutter carries roughly half again the water of a five-inch and pairs with a three-by-four downspout that has twice the opening area of a standard two-by-three. It's the right upgrade for large roof planes, steep pitches, and places with heavy downpours like Florida, where a summer storm can drop more rain in twenty minutes than a five-inch system can move.",
-        priceRange: "$1,600 – $5,500",
+        priceRange: "$1,200 – $4,200",
         timeframe: "1–2 Days",
         warranty: "5-Year Warranty",
         priceScopeParagraphs: [
-          "Six-inch systems typically run $1,600 to $5,500 for a whole house, about 10 to 20 percent above the same house in five-inch. The extra cost is mostly material.",
+          "Six-inch systems typically run $1,200 to $4,200 for a whole house, about 20 to 30 percent above the same house in five-inch. The extra cost is mostly material.",
           "Six-inch gutters need slightly more clearance and sturdier hangers because they hold more water when full.",
         ],
         considerationsIntro: "When six-inch earns its cost:",
@@ -585,11 +585,11 @@ export const categories: Category[] = [
           "Smooth, curved half-round gutters in aluminum or copper, hung on strap hangers and paired with round downspouts for Mediterranean and historic homes.",
         overview:
           "A half-round gutter is a smooth, rounded trough with no flat back, and it has been the traditional choice on Mediterranean, colonial, and historic homes for a long time. It sheds debris more easily than a K-style because it has no corners for leaves to catch in. It also carries less water than a K-style of the same width, so installers often go up a size, and it hangs from visible strap hangers instead of hidden ones.",
-        priceRange: "$2,200 – $9,000",
+        priceRange: "$1,800 – $8,000",
         timeframe: "1–3 Days",
         warranty: "5-Year Warranty",
         priceScopeParagraphs: [
-          "Half-round systems typically run $2,200 to $9,000 for a whole house, depending on material and linear feet. Aluminum sits at the low end; copper and custom sizes sit near the top.",
+          "Half-round systems typically run $1,800 to $8,000 for a whole house, depending on material and linear feet. Aluminum sits at the low end; copper and custom sizes sit near the top.",
           "The profile costs more per foot than K-style and needs a crew that has formed and hung it before. Round downspouts and matching fittings add to the price.",
         ],
         considerationsIntro: "What to think through before choosing half-round:",
@@ -645,11 +645,11 @@ export const categories: Category[] = [
           "Leaking built-in and box gutters re-lined, re-sealed, or re-fitted with new outlets before water reaches the framing behind them.",
         overview:
           "A box or built-in gutter is part of the roof edge instead of hanging from it. It's lined with metal or a rubber membrane, and when that liner or an outlet fails, water goes into the fascia and framing instead of the downspout. Damage is hidden until it shows up as stained ceilings or soft wood. The repair finds the failed spot, replaces the liner or outlet, checks the wood behind it, and re-tests the run with water.",
-        priceRange: "$400 – $3,500",
+        priceRange: "$400 – $3,000",
         timeframe: "1–3 Days",
         warranty: "1-Year Warranty",
         priceScopeParagraphs: [
-          "Box gutter repairs typically run $400 to $3,500 depending on the length affected and how much wood behind it has to be replaced. A single failed outlet sits at the low end; a full re-lining sits near the top.",
+          "Box gutter repairs typically run $400 to $3,000 depending on the length affected and how much wood behind it has to be replaced. A single failed outlet sits at the low end; a full re-lining sits near the top.",
           "If the roof edge is failing, some of the work belongs to a roofer. We'd say which part is which in the estimate.",
         ],
         considerationsIntro: "What shapes a box gutter repair:",
@@ -703,11 +703,11 @@ export const categories: Category[] = [
           "Copper or aluminum rain chains that guide water from a gutter outlet to a basin or gravel bed, for porches, entries, and small roof sections.",
         overview:
           "A rain chain replaces a section of downspout with a chain or a string of cups that water follows down to the ground. It looks better than a downspout and sounds better in the rain, and it works well on a porch, an entry, or a small roof section. It moves less water than a closed downspout and splashes, so it needs a basin, gravel bed, or drain at the bottom, and it isn't a substitute for downspouts on the main roof.",
-        priceRange: "$150 – $900",
+        priceRange: "$150 – $750",
         timeframe: "Half Day",
         warranty: "1-Year Warranty",
         priceScopeParagraphs: [
-          "Rain chains typically run $150 to $900 installed, depending on length, material, and whether a basin or drain is included. Copper costs more than aluminum.",
+          "Rain chains typically run $150 to $750 installed, depending on length, material, and whether a basin or drain is included. Copper costs more than aluminum.",
           "Adding a gravel bed or tying the chain into a buried drain adds to the price and prevents splash against siding.",
         ],
         considerationsIntro: "Before choosing a rain chain:",
@@ -796,11 +796,11 @@ export const categories: Category[] = [
           "Leaking seams, corners, and end caps found and sealed, or patched with new metal, so water goes where the gutter sends it.",
         overview:
           "Gutter leaks almost always show up at seams: sectional gutters where two pieces join, or seamless gutters at corners, end caps, and downspout outlets. The repair starts by cleaning the leaking area back to bare metal, since sealant doesn't bond to dirt or old caulk. The installer then reseals with a gutter-grade sealant, replaces failed end caps, or patches holes with new metal. If the leak is a sign of a bigger pitch or hanger problem, the estimate says so.",
-        priceRange: "$150 – $600",
+        priceRange: "$125 – $400",
         timeframe: "Half Day",
         warranty: "1-Year Warranty",
         priceScopeParagraphs: [
-          "Leak repairs typically run $150 to $600 depending on how many spots leak and how hard they are to reach. A single end cap on the first floor sits at the low end; several failed seams on a second story sit higher.",
+          "Leak repairs typically run $125 to $400 depending on how many spots leak and how hard they are to reach. A single end cap on the first floor sits at the low end; several failed seams on a second story sit higher.",
           "A repair quote that keeps growing usually means the gutters are near the end of their life. Ask for a replacement quote alongside it.",
         ],
         considerationsIntro: "What to know before booking a leak repair:",
@@ -838,7 +838,7 @@ export const categories: Category[] = [
           "Replacement quoted when repair isn't worth it",
         ],
         faqs: [
-          { question: "How much does it cost to fix a leaking gutter?", answer: "Typically $150 to $600 depending on the number of leaks and access." },
+          { question: "How much does it cost to fix a leaking gutter?", answer: "Typically $125 to $400 depending on the number of leaks and access." },
           { question: "Can I fix a leaking gutter myself?", answer: "Small seam leaks are a workable DIY with the right sealant and a clean surface. Anything on a second story or a rusted run is worth a pro." },
           { question: "Why does my new gutter leak at the corners?", answer: "Corners and end caps are hand-sealed on site. If the sealant was applied to a dirty surface, it can fail early and should be covered by the workmanship warranty." },
         ],
@@ -851,11 +851,11 @@ export const categories: Category[] = [
           "Sagging or separating gutters re-hung on new hangers, with the pitch reset and any damaged fascia repaired.",
         overview:
           "Gutters sag for one of a few reasons: hangers that have pulled out of the fascia, hangers spaced too far apart, rotted fascia that can't hold a screw, or standing water and debris adding weight. The repair identifies which one it is, replaces failed spikes and ferrules with hidden hangers or long screws, corrects the pitch so water drains, and repairs any fascia that has gone soft. Skipping the fascia check is why sagging gutters often come back within a season.",
-        priceRange: "$200 – $900",
+        priceRange: "$150 – $600",
         timeframe: "Half Day – 1 Day",
         warranty: "1-Year Warranty",
         priceScopeParagraphs: [
-          "Sagging-gutter repairs typically run $200 to $900 depending on the length of the affected run and whether fascia needs repair. Re-hanging one twenty-foot run sits near the low end.",
+          "Sagging-gutter repairs typically run $150 to $600 depending on the length of the affected run and whether fascia needs repair. Re-hanging one twenty-foot run sits near the low end.",
           "If fascia rot runs along the whole roofline, the repair becomes a replacement, since new hangers need sound wood to hold.",
         ],
         considerationsIntro: "Before you book:",
@@ -908,11 +908,11 @@ export const categories: Category[] = [
           "Gutters bent, torn loose, or crushed by wind, limbs, or debris re-hung, straightened, or replaced, with the fascia checked underneath.",
         overview:
           "Central Florida storms take gutters off the house in sections: hangers pull out, runs bend under a fallen limb, and downspouts get crushed. The repair starts with securing anything that could fall, then assesses what's bent, what's detached, and what the fascia behind it looks like. Photograph the damage before repairs start if you plan to file an insurance claim; the installer can supply an itemized estimate, but filing and coverage decisions are between you and your insurer.",
-        priceRange: "$250 – $2,500",
+        priceRange: "$250 – $2,000",
         timeframe: "Half Day – 2 Days",
         warranty: "1-Year Warranty",
         priceScopeParagraphs: [
-          "Storm repairs typically run $250 to $2,500 depending on how much of the roofline is affected. Re-hanging one detached run sits at the low end; replacing several damaged runs and a section of fascia sits near the top.",
+          "Storm repairs typically run $250 to $2,000 depending on how much of the roofline is affected. Re-hanging one detached run sits at the low end; replacing several damaged runs and a section of fascia sits near the top.",
           "Repair windows tighten after a major storm as everyone calls at once. A temporary securing job can hold until a full repair is scheduled.",
         ],
         considerationsIntro: "What to do and check after a storm:",
@@ -1003,11 +1003,11 @@ export const categories: Category[] = [
           "Debris cleared from gutters and downspouts, then flushed with water to confirm every run drains, with minor problems flagged.",
         overview:
           "Gutter cleaning removes leaves, shingle grit, and packed debris from the trough and clears the downspouts, then flushes the system with water to confirm it drains. It's the cheapest way to prevent overflow, ice or moss damage, and the fascia rot that follows from water sitting against wood. A good cleaning also doubles as an inspection, since the person on the ladder sees sagging, loose hangers, and leaking seams before they become a bigger bill.",
-        priceRange: "$120 – $450",
+        priceRange: "$120 – $350",
         timeframe: "1–3 Hours",
         warranty: "30-Day Warranty",
         priceScopeParagraphs: [
-          "Cleaning typically runs $120 to $450 depending on linear feet, number of stories, and how packed the gutters are. A one-story home with light debris sits at the low end; a two-story home under heavy tree cover sits at the high end.",
+          "Cleaning typically runs $120 to $350 depending on linear feet, number of stories, and how packed the gutters are. A one-story home with light debris sits at the low end; a two-story home under heavy tree cover sits at the high end.",
           "Frequency drives long-term cost. Homes under oaks or pines often need cleaning two to four times a year, and that's when gutter guards start to earn their price.",
         ],
         considerationsIntro: "What changes the price:",
@@ -1047,7 +1047,7 @@ export const categories: Category[] = [
         ],
         faqs: [
           { question: "How often should gutters be cleaned?", answer: "At least twice a year. Homes under heavy tree cover may need three to four cleanings." },
-          { question: "How much does gutter cleaning cost?", answer: "Typically $120 to $450, depending on linear feet, stories, and how packed the gutters are." },
+          { question: "How much does gutter cleaning cost?", answer: "Typically $120 to $350, depending on linear feet, stories, and how packed the gutters are." },
           { question: "Will gutter guards eliminate cleaning?", answer: "No. They reduce frequency, but fine debris still gets through and guards need an occasional check." },
         ],
       },
@@ -1059,11 +1059,11 @@ export const categories: Category[] = [
           "A walk of the full roofline with a water test, pitch check, fascia probe, and photo report, so you know what actually needs fixing.",
         overview:
           "A gutter inspection answers one question: do these gutters need cleaning, repair, or replacement, and how urgent is it? The inspector walks the roofline, runs water through every run, checks the pitch, probes the fascia for rot, and photographs anything that needs attention. You get a written list with priorities, which is useful before you buy a house, after a storm, or when quotes on the same house disagree.",
-        priceRange: "$100 – $250",
+        priceRange: "$75 – $200",
         timeframe: "1–2 Hours",
         warranty: "30-Day Warranty",
         priceScopeParagraphs: [
-          "Inspections typically run $100 to $250 depending on the size of the house and the number of stories. Many installers credit the fee against repair or replacement work booked afterward.",
+          "Inspections typically run $75 to $200 depending on the size of the house and the number of stories. Many installers credit the fee against repair or replacement work booked afterward.",
           "A free estimate covers the work an installer is bidding on. An inspection is for when you want a report you can use whether or not you hire that installer.",
         ],
         considerationsIntro: "When an inspection is worth paying for:",
@@ -1104,7 +1104,7 @@ export const categories: Category[] = [
           "Written report with photos and priorities",
         ],
         faqs: [
-          { question: "How much does a gutter inspection cost?", answer: "Typically $100 to $250, and often credited toward work you book afterward." },
+          { question: "How much does a gutter inspection cost?", answer: "Typically $75 to $200, and often credited toward work you book afterward." },
           { question: "How long does an inspection take?", answer: "One to two hours for most homes." },
           { question: "Is a gutter inspection part of a home inspection?", answer: "General home inspections usually look at gutters briefly. A dedicated inspection includes a water test and a fascia check." },
         ],
@@ -1117,11 +1117,11 @@ export const categories: Category[] = [
           "Black streaks, algae, and oxidation removed from the outside of aluminum gutters and downspouts, without harming the finish.",
         overview:
           "The dark vertical streaks on a gutter face are dirt and algae carried down by runoff, and in Florida's humidity they come back fast. They're cosmetic, and they don't mean the gutter is failing. Brightening cleans the outside of the gutters and downspouts with a gutter-safe cleaner and a soft brush or low-pressure wash, and it often takes a house from looking neglected to looking maintained without replacing anything.",
-        priceRange: "$120 – $450",
+        priceRange: "$120 – $350",
         timeframe: "1–3 Hours",
         warranty: "30-Day Warranty",
         priceScopeParagraphs: [
-          "Exterior cleaning typically runs $120 to $450 depending on linear feet and the number of stories. It's often booked together with an interior gutter cleaning at a lower combined price.",
+          "Exterior cleaning typically runs $120 to $350 depending on linear feet and the number of stories. It's often booked together with an interior gutter cleaning at a lower combined price.",
           "Heavy oxidation, where the finish has chalked, may not clean fully. The installer tells you what's realistic before starting.",
         ],
         considerationsIntro: "What to know before booking:",
@@ -1210,11 +1210,11 @@ export const categories: Category[] = [
           "New downspouts added or relocated, sized to the roof area they serve, with outlets aimed away from the foundation.",
         overview:
           "Downspouts carry water from the gutter to the ground. Too few, too small, or badly placed, and gutters overflow no matter how new they are. The installer adds downspouts where a long run has none, upsizes to 3x4 where the roof area calls for it, and relocates outlets that dump beside the foundation. A common rule of thumb is one downspout per 30 to 40 feet of gutter, with more where a large roof plane funnels into one run.",
-        priceRange: "$200 – $1,200",
+        priceRange: "$120 – $800",
         timeframe: "Half Day – 1 Day",
         warranty: "2-Year Warranty",
         priceScopeParagraphs: [
-          "Downspout installation typically runs $200 to $1,200, priced per downspout with extra for upsizing and custom offsets. Adding one downspout to a first-floor run sits at the low end; adding several and upsizing sits near the top.",
+          "Downspout installation typically runs $120 to $800, priced per downspout with extra for upsizing and custom offsets. Adding one downspout to a first-floor run sits at the low end; adding several and upsizing sits near the top.",
           "Second-story downspouts need longer runs and more brackets, which adds labor.",
         ],
         considerationsIntro: "Points that shape the job:",
@@ -1269,11 +1269,11 @@ export const categories: Category[] = [
           "Crushed, detached, clogged, or leaking downspouts repaired or replaced, with elbows, straps, and outlets checked along the whole run.",
         overview:
           "Downspouts fail in a few predictable ways: a crushed or dented section that restricts flow, a section that has pulled away from its straps, a clog at an elbow, or a leaking joint that soaks the wall. The repair clears or replaces the failed part, re-secures the run, and water-tests it end to end. If a downspout keeps clogging at the same elbow, the fix is usually changing the route, not clearing it again.",
-        priceRange: "$120 – $700",
+        priceRange: "$75 – $450",
         timeframe: "Half Day",
         warranty: "1-Year Warranty",
         priceScopeParagraphs: [
-          "Downspout repairs typically run $120 to $700 depending on how many sections are damaged and how high they are. Re-securing one loose section sits at the low end; replacing a full second-story run sits near the top.",
+          "Downspout repairs typically run $75 to $450 depending on how many sections are damaged and how high they are. Re-securing one loose section sits at the low end; replacing a full second-story run sits near the top.",
           "Where a downspout is old and dented in several places, replacing the run costs little more than patching it.",
         ],
         considerationsIntro: "What to check before booking:",
@@ -1326,11 +1326,11 @@ export const categories: Category[] = [
           "Above-ground extensions, flexible or hard, that carry downspout water several feet from the foundation without digging.",
         overview:
           "The cheapest fix for a wet foundation is often a longer downspout. An extension carries water several feet from the house, and on a lot that slopes away it can be all you need. Options include rigid aluminum or PVC extensions, flip-up extensions that lift out of the way for mowing, and flexible hoses. They work best where the ground slopes away, and they're not right where a walkway or a mower has to cross them.",
-        priceRange: "$100 – $600",
+        priceRange: "$75 – $450",
         timeframe: "Half Day",
         warranty: "1-Year Warranty",
         priceScopeParagraphs: [
-          "Extensions typically run $100 to $600 for a whole house, depending on how many downspouts need them and how long they are. Basic splash blocks cost the least; rigid extensions with a stable landing cost more.",
+          "Extensions typically run $75 to $450 for a whole house, depending on how many downspouts need them and how long they are. Basic splash blocks cost the least; rigid extensions with a stable landing cost more.",
           "If the yard is flat or the extension would cross a walkway, a buried drain is a better answer than a longer extension.",
         ],
         considerationsIntro: "Before choosing an extension:",
@@ -1419,11 +1419,11 @@ export const categories: Category[] = [
           "Micro-mesh, screen, and reverse-curve guards fitted to your gutters, chosen for the leaves, needles, and rain load your home actually gets.",
         overview:
           "Gutter guards cover the trough so leaves and larger debris ride off the roof edge instead of packing the gutter. They come in a few styles: micro-mesh that filters fine debris, perforated or screen guards that stop leaves, foam and brush inserts, and reverse-curve covers that shed water around a curved lip. None is maintenance-free. Reverse-curve styles can overshoot the gutter in a heavy downpour, and screens with large openings let pine needles through.",
-        priceRange: "$1,000 – $4,500",
+        priceRange: "$800 – $3,500",
         timeframe: "1 Day",
         warranty: "5-Year Warranty",
         priceScopeParagraphs: [
-          "Gutter guards typically run $1,000 to $4,500 for a whole house, at roughly $5 to $25 per linear foot depending on the style. Micro-mesh sits near the high end; basic screens sit near the low end.",
+          "Gutter guards typically run $800 to $3,500 for a whole house, at roughly $4 to $15 per linear foot depending on the style. Micro-mesh sits near the high end; basic screens sit near the low end.",
           "Guards cost more than a year or two of cleanings, so the payoff is over several years, particularly on two-story homes or lots with heavy tree cover.",
         ],
         considerationsIntro: "Before you pick a style:",
@@ -1478,11 +1478,11 @@ export const categories: Category[] = [
           "Stainless micro-mesh guards that filter pine needles, shingle grit, and oak pollen, fitted to sound gutters with the right pitch.",
         overview:
           "Micro-mesh guards use a fine stainless mesh over an aluminum frame to keep out much of what larger-opening guards let through: pine needles, seed pods, shingle grit, and some pollen. They cost more than screens, and they need clean, properly pitched gutters to work. Fine debris can film over the mesh surface, so plan on a periodic brush-off, and know that a clogged mesh sheds water over the edge in a heavy downpour.",
-        priceRange: "$1,800 – $5,500",
+        priceRange: "$1,500 – $4,500",
         timeframe: "1 Day",
         warranty: "5-Year Warranty",
         priceScopeParagraphs: [
-          "Micro-mesh typically runs $1,800 to $5,500 for a whole house, at roughly $8 to $25 per linear foot installed. It's the priciest guard style, and the one with the best track record against fine debris.",
+          "Micro-mesh typically runs $1,500 to $4,500 for a whole house, at roughly $7 to $20 per linear foot installed. It's the priciest guard style, and the one with the best track record against fine debris.",
           "Some styles slide under the shingles, which can affect a shingle warranty. Ask before install.",
         ],
         considerationsIntro: "Things to weigh:",
@@ -1536,11 +1536,11 @@ export const categories: Category[] = [
           "Bent, lifted, or storm-blown guards re-secured or replaced, and failing guards swapped for a style that fits your debris.",
         overview:
           "Guards get bent by ladders, lifted by wind, or removed and never put back after a gutter repair. Sometimes the problem is the guard itself: the wrong style for the trees, or a mesh that has clogged solid. This service re-secures loose guards, replaces damaged sections, swaps a failing style for a better one, and re-installs guards after gutter work. Cleaning under existing guards, which means lifting them, cleaning the trough, and putting them back, is part of the visit.",
-        priceRange: "$150 – $2,500",
+        priceRange: "$125 – $2,000",
         timeframe: "Half Day – 1 Day",
         warranty: "1-Year Warranty",
         priceScopeParagraphs: [
-          "Guard repairs typically run $150 to $2,500. Re-securing a few loose sections sits at the low end; removing a failed system and installing a different style on the whole house sits near the top.",
+          "Guard repairs typically run $125 to $2,000. Re-securing a few loose sections sits at the low end; removing a failed system and installing a different style on the whole house sits near the top.",
           "Guards from a manufacturer that has since gone out of business can be hard to match. In that case, replacing only the damaged runs may not look uniform.",
         ],
         considerationsIntro: "What shapes the job:",
@@ -1629,11 +1629,11 @@ export const categories: Category[] = [
           "Buried drain lines and pop-up emitters that carry downspout water away from the foundation to a safe discharge point.",
         overview:
           "When a downspout empties next to the house, the ground near the foundation stays wet. Underground drainage solves that by connecting downspouts to buried pipe that carries water to daylight, a dry well, or a pop-up emitter well away from the structure. The installer digs a trench with steady downhill grade, lays the pipe, connects each downspout, and backfills. Utilities are located before any digging starts. Calling 811 first is required in most places, and the installer handles it.",
-        priceRange: "$600 – $3,000",
+        priceRange: "$500 – $2,500",
         timeframe: "1–2 Days",
         warranty: "2-Year Warranty",
         priceScopeParagraphs: [
-          "Underground drainage typically runs $600 to $3,000 depending on the number of downspouts tied in, the pipe length, and the terrain. A single downspout to a nearby emitter sits at the low end.",
+          "Underground drainage typically runs $500 to $2,500 depending on the number of downspouts tied in, the pipe length, and the terrain. A single downspout to a nearby emitter sits at the low end.",
           "Hard soil, tree roots, and buried utilities add time. Landscape restoration is not always included in the base price, so ask.",
         ],
         considerationsIntro: "Points that affect the job:",
@@ -1689,11 +1689,11 @@ export const categories: Category[] = [
           "Spring-loaded emitters at the end of a buried downspout line that stay flush with the grass until water flows through.",
         overview:
           "A pop-up drain emitter sits at the end of a buried pipe that runs from your downspout. When water flows, the lid lifts and releases it onto the lawn or into a swale away from the house. When it's dry, the lid drops flush with the grass so the mower goes right over. It's the tidy way to finish a buried downspout drain, and it works where the ground falls away from the emitter.",
-        priceRange: "$250 – $900",
+        priceRange: "$200 – $750",
         timeframe: "Half Day – 1 Day",
         warranty: "2-Year Warranty",
         priceScopeParagraphs: [
-          "Pop-up emitters typically run $250 to $900 per downspout, depending on the pipe length and soil. They usually come as part of a buried drain job.",
+          "Pop-up emitters typically run $200 to $750 per downspout, depending on the pipe length and soil. They usually come as part of a buried drain job.",
           "Where the discharge point is close to the house, or the lot is very flat, the emitter can leave water sitting. A dry well or a different discharge may be a better fit.",
         ],
         considerationsIntro: "What shapes the job:",
@@ -1746,11 +1746,11 @@ export const categories: Category[] = [
           "Rain barrels connected to a downspout with a diverter, screened inlet, and overflow line, for garden watering without a mosquito problem.",
         overview:
           "A rain barrel catches water from a downspout and stores it for garden and lawn watering. Installation includes a stand or base, a diverter that sends water into the barrel and sends the excess back down the downspout, a screened inlet, and an overflow line. In Florida, the screen and a sealed lid matter more than anywhere: an open barrel becomes a mosquito nursery within days.",
-        priceRange: "$150 – $700",
+        priceRange: "$125 – $600",
         timeframe: "Half Day",
         warranty: "1-Year Warranty",
         priceScopeParagraphs: [
-          "Rain barrel installations typically run $150 to $700 depending on barrel size, stand, and diverter. A single barrel on an existing downspout sits at the low end; a linked multi-barrel setup sits near the top.",
+          "Rain barrel installations typically run $125 to $600 depending on barrel size, stand, and diverter. A single barrel on an existing downspout sits at the low end; a linked multi-barrel setup sits near the top.",
           "A barrel is not drainage. It fills quickly in a storm, so the downspout still needs a path for the overflow.",
         ],
         considerationsIntro: "Points that matter:",
@@ -1840,11 +1840,11 @@ export const categories: Category[] = [
           "Rotted or warped fascia boards cut out and replaced, primed and painted, so new or existing gutters have something solid to hold.",
         overview:
           "Fascia is the board along the roof edge that the gutter hangs from. Years of overflow soak it, and it rots from the top down. A gutter screwed into soft fascia pulls away no matter how good the gutter is. The repair removes the gutter section, cuts out the bad wood, installs a new board (wood, composite, or aluminum-wrapped), and re-hangs the gutter. Matching paint or a wrap finish makes the repair disappear.",
-        priceRange: "$400 – $2,500",
+        priceRange: "$350 – $2,200",
         timeframe: "1–2 Days",
         warranty: "2-Year Warranty",
         priceScopeParagraphs: [
-          "Fascia repair typically runs $400 to $2,500 depending on linear feet, board height, and the material. Wood repair runs roughly $6 to $20 per linear foot; composite and aluminum wrap cost more.",
+          "Fascia repair typically runs $350 to $2,200 depending on linear feet, board height, and the material. Wood repair runs roughly $6 to $20 per linear foot; composite and aluminum wrap cost more.",
           "If the rot extends into the rafter tails or the roof sheathing, a carpenter or roofer has to handle that part.",
         ],
         considerationsIntro: "What shapes the job:",
@@ -1885,7 +1885,7 @@ export const categories: Category[] = [
           "Primer and finish included",
         ],
         faqs: [
-          { question: "How much does fascia replacement cost?", answer: "Typically $400 to $2,500 for most homes, depending on length and material." },
+          { question: "How much does fascia replacement cost?", answer: "Typically $350 to $2,200 for most homes, depending on length and material." },
           { question: "What causes fascia rot?", answer: "Overflowing gutters, missing drip edge, and roof leaks soak the board. Wood rots when it stays wet." },
           { question: "Should I replace fascia with aluminum or composite?", answer: "Both last longer than wood. Cost and appearance decide the choice." },
         ],
@@ -1898,11 +1898,11 @@ export const categories: Category[] = [
           "Damaged, rotted, or pest-breached soffit panels replaced with vented aluminum or vinyl, keeping attic airflow and closing gaps.",
         overview:
           "The soffit is the underside of the roof overhang, and it does two jobs: it ventilates the attic and it keeps animals out. Water damage from a leaking gutter can rot wood soffits, and gaps let birds, squirrels, and rats into the attic, which is a real problem in Central Florida. The repair replaces damaged panels with vented aluminum or vinyl, secures loose sections, and closes any entry points.",
-        priceRange: "$350 – $2,800",
+        priceRange: "$350 – $2,500",
         timeframe: "1–2 Days",
         warranty: "2-Year Warranty",
         priceScopeParagraphs: [
-          "Soffit repair typically runs $350 to $2,800 depending on linear feet and material. Replacing a few damaged panels sits at the low end; replacing a full roofline sits near the top.",
+          "Soffit repair typically runs $350 to $2,500 depending on linear feet and material. Replacing a few damaged panels sits at the low end; replacing a full roofline sits near the top.",
           "If animals have been in the attic, exclusion and cleanup are separate jobs handled by a wildlife or pest professional.",
         ],
         considerationsIntro: "What shapes the job:",
@@ -1955,11 +1955,11 @@ export const categories: Category[] = [
           "Metal drip edge added along the roof edge so water flows into the gutter instead of running behind it onto the fascia.",
         overview:
           "Drip edge is a metal strip at the roof edge that directs water off the roof and into the gutter. Without it, water can curl under the shingle edge and run down the back of the gutter onto the fascia, which is one of the most common reasons fascia rots. Newer roofs usually have drip edge; older ones often don't. Adding it means working at the roof edge, which is roofer territory on many homes, so we say up front who does what.",
-        priceRange: "$300 – $1,800",
+        priceRange: "$250 – $1,500",
         timeframe: "1 Day",
         warranty: "2-Year Warranty",
         priceScopeParagraphs: [
-          "Drip edge typically runs $300 to $1,800 depending on linear feet and how much of the roof edge is involved. It's usually cheaper when done together with gutter installation or fascia work.",
+          "Drip edge typically runs $250 to $1,500 depending on linear feet and how much of the roof edge is involved. It's usually cheaper when done together with gutter installation or fascia work.",
           "On tile roofs and some shingle roofs, a gutter apron is used in place of drip edge. The installer chooses based on the roof.",
         ],
         considerationsIntro: "What to check first:",
@@ -2049,11 +2049,11 @@ export const categories: Category[] = [
           "Gutter systems for offices, retail buildings, and multi-unit properties, sized for large roof areas and installed with lift equipment where a ladder can't reach.",
         overview:
           "Commercial roofs shed far more water than a house, so the system has to be sized for it. Six-inch or larger gutters, three-by-four or bigger downspouts, and closer hanger spacing are common on commercial jobs. The crew works with lifts on tall rooflines, coordinates around tenants and business hours, and plans drainage so water doesn't pool on walkways or in parking lots.",
-        priceRange: "$4,000 – $30,000",
+        priceRange: "$3,500 – $25,000",
         timeframe: "3–7 Days",
         warranty: "5-Year Warranty",
         priceScopeParagraphs: [
-          "Commercial installations typically run $4,000 to $30,000, depending on linear footage, building height, and whether lift rental is needed. A small retail strip sits near the low end; a multi-story multi-unit building sits near the high end.",
+          "Commercial installations typically run $3,500 to $25,000, depending on linear footage, building height, and whether lift rental is needed. A small retail strip sits near the low end; a multi-story multi-unit building sits near the high end.",
           "Scheduling around tenants and access adds time. Work near entrances or parking often runs early morning or weekends so foot traffic is not blocked.",
         ],
         considerationsIntro: "What drives commercial gutter scope:",
@@ -2109,11 +2109,11 @@ export const categories: Category[] = [
           "Scheduled gutter and downspout cleaning for offices, retail, and multi-unit buildings, using lifts where ladders can't safely reach.",
         overview:
           "Commercial gutters clog like any other, but the stakes are higher: overflow onto walkways, staining on the storefront, and water pooling in a parking lot. The crew cleans gutters and downspouts, flushes each run, and reports leaks, sagging, and drainage problems. Work is scheduled around business hours, and recurring contracts on a set interval keep the roofline clear before the wet season.",
-        priceRange: "$300 – $3,000",
+        priceRange: "$250 – $2,500",
         timeframe: "Half Day – 2 Days",
         warranty: "30-Day Warranty",
         priceScopeParagraphs: [
-          "Commercial cleaning typically runs $300 to $3,000 per visit depending on linear feet, height, and debris load. Multi-story buildings needing lifts sit at the high end.",
+          "Commercial cleaning typically runs $250 to $2,500 per visit depending on linear feet, height, and debris load. Multi-story buildings needing lifts sit at the high end.",
           "Recurring schedules usually come with a lower per-visit price than one-off calls.",
         ],
         considerationsIntro: "What shapes scope and price:",
@@ -2167,11 +2167,11 @@ export const categories: Category[] = [
           "Leak, sag, and storm-damage repairs on commercial gutters and downspouts, scheduled around tenants and customer traffic.",
         overview:
           "On a commercial building, a failed gutter drops water on customers, staining walls and flooding walkways. Repairs cover leaking seams and outlets, sagging or detached runs, crushed downspouts, and storm damage. The crew works from lifts, keeps entrances open, and gives the property manager an itemized report. If the system is past repair, the estimate says so and quotes replacement.",
-        priceRange: "$400 – $6,000",
+        priceRange: "$350 – $5,000",
         timeframe: "1–3 Days",
         warranty: "1-Year Warranty",
         priceScopeParagraphs: [
-          "Commercial repairs typically run $400 to $6,000 depending on length, height, and access. A single leaking outlet sits at the low end; several runs on a multi-story building sit near the top.",
+          "Commercial repairs typically run $350 to $5,000 depending on length, height, and access. A single leaking outlet sits at the low end; several runs on a multi-story building sit near the top.",
           "Emergency post-storm calls are priced for the speed they require. Scheduled repairs cost less.",
         ],
         considerationsIntro: "What shapes scope and price:",

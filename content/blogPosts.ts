@@ -42,11 +42,11 @@ export const blogPosts: BlogPost[] = [
     title: "Gutter Repair or Replacement: How to Decide Before You Pay for Either",
     seoTitle: "Gutter Repair vs. Replacement: How to Decide",
     metaDescription:
-      "Repair when damage is local and costs $150 to $900. Replace when most of the run is failing. Here's how to tell the difference before you book a quote.",
+      "Repair when damage is local and costs $125 to $600. Replace when most of the run is failing. Here's how to tell the difference before you book a quote.",
     ogDescription:
       "A leaking seam is a repair. Gutters pulling away along the whole roofline are not. Here's how to tell which one you have.",
     excerpt:
-      "Repair fixes local damage for $150 to $900. Replacement makes sense when most of the run is failing. Here's how to tell them apart.",
+      "Repair fixes local damage for $125 to $600. Replacement makes sense when most of the run is failing. Here's how to tell them apart.",
     category: "Repair",
     primaryKeyword: "gutter repair vs replacement",
     date: "2026-09-10",
@@ -55,7 +55,7 @@ export const blogPosts: BlogPost[] = [
     imageWidth: 1200,
     imageHeight: 675,
     intro: [
-      "Repair your gutters if the damage is local: one leaking seam, one loose section, one clogged downspout. Replace them if most of the run is failing, rusting through, or pulling away from the house. Repairs typically cost **$150 to $900**. Replacement typically costs **$1,500 to $5,500**.",
+      "Repair your gutters if the damage is local: one leaking seam, one loose section, one clogged downspout. Replace them if most of the run is failing, rusting through, or pulling away from the house. Repairs typically cost **$125 to $600**. Replacement typically costs **$1,100 to $3,800**.",
       "The harder question is what counts as local. A homeowner sees a gutter that sags at one corner. An installer sees whether the fascia behind it is soft, whether the pitch is wrong along the whole run, and whether the fix will hold. That gap is where most repeat repair calls come from.",
     ],
     sections: [
@@ -95,16 +95,16 @@ export const blogPosts: BlogPost[] = [
           "The ranges below are typical for a single-family home. Your number depends on linear feet, stories, and fascia condition.",
         ],
         bullets: [
-          "**Leak repair** — $150 to $600. See [gutter leak repair](/gutter-repair/gutter-leak-repair).",
-          "**Sagging or pulled-away gutters** — $200 to $900. See [sagging gutter repair](/gutter-repair/sagging-gutter-repair).",
-          "**Full replacement** — $1,500 to $5,500, including tear-off and disposal.",
+          "**Leak repair** — $125 to $400. See [gutter leak repair](/gutter-repair/gutter-leak-repair).",
+          "**Sagging or pulled-away gutters** — $150 to $600. See [sagging gutter repair](/gutter-repair/sagging-gutter-repair).",
+          "**Full replacement** — $1,100 to $3,800, including tear-off and disposal.",
         ],
       },
       {
         id: "when-not-to-hire",
         heading: "When Not to Pay for a Repair or a Replacement",
         paragraphs: [
-          "If your gutters overflow but the metal is sound and they're just packed with debris, you need a cleaning at $120 to $450, not a repair. If the real problem is water pooling at the foundation, the fix may be a longer downspout extension, and a new gutter system won't help. A good installer tells you that and doesn't take the job.",
+          "If your gutters overflow but the metal is sound and they're just packed with debris, you need a cleaning at $120 to $350, not a repair. If the real problem is water pooling at the foundation, the fix may be a longer downspout extension, and a new gutter system won't help. A good installer tells you that and doesn't take the job.",
           "The [Insurance Institute for Business & Home Safety](https://ibhs.org) publishes guidance on protecting a home's roof edge from storm damage, useful if you're deciding how much to spend ahead of hurricane season.",
         ],
       },
@@ -113,7 +113,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "How much does it cost to repair a gutter?",
         answer:
-          "Typically $150 to $900 depending on the type of damage and how much of the run is affected. A single leaking end cap sits at the low end; re-hanging a long sagging run sits higher.",
+          "Typically $125 to $600 depending on the type of damage and how much of the run is affected. A single leaking end cap sits at the low end; re-hanging a long sagging run sits higher.",
       },
       {
         question: "Is it cheaper to repair or replace gutters?",
@@ -229,9 +229,9 @@ export const blogPosts: BlogPost[] = [
     "slug": "gutter-installation-cost-orlando",
     "title": "How Much Does Gutter Installation Cost in Orlando, FL?",
     "seoTitle": "Gutter Installation Cost in Orlando, FL",
-    "metaDescription": "Gutter installation in Orlando typically costs $1,200 to $4,500 for a whole house. See what moves the price: linear feet, gauge, size, and downspout count.",
-    "ogDescription": "A whole-house gutter install in Orlando usually lands between $1,200 and $4,500. Here is what pushes yours toward either end.",
-    "excerpt": "Most Orlando homes land between $1,200 and $4,500. Linear feet, gauge, gutter size, and downspout count decide where yours falls.",
+    "metaDescription": "Gutter installation in Orlando typically costs $900 to $3,200 for a whole house. See what moves the price: linear feet, gauge, size, and downspout count.",
+    "ogDescription": "A whole-house gutter install in Orlando usually lands between $900 and $3,200. Here is what pushes yours toward either end.",
+    "excerpt": "Most Orlando homes land between $900 and $3,200. Linear feet, gauge, gutter size, and downspout count decide where yours falls.",
     "category": "Cost",
     "primaryKeyword": "gutter installation cost Orlando",
     "date": "2026-05-27",
@@ -240,7 +240,7 @@ export const blogPosts: BlogPost[] = [
     "imageWidth": 1200,
     "imageHeight": 675,
     "intro": [
-      "Gutter installation in Orlando typically costs **$1,200 to $4,500** for a whole house. The number depends mostly on how many linear feet of gutter your roofline needs, how thick the metal is, and how many downspouts the roof calls for.",
+      "Gutter installation in Orlando typically costs **$900 to $3,200** for a whole house. The number depends mostly on how many linear feet of gutter your roofline needs, how thick the metal is, and how many downspouts the roof calls for.",
       "A one-story block home with a simple rectangle roof sits near the bottom of that range. A two-story stucco home with a hip roof, several corners, and eight downspouts sits near the top. Those two houses can both get an honest quote."
     ],
     "sections": [
@@ -252,7 +252,7 @@ export const blogPosts: BlogPost[] = [
         ],
         "bullets": [
           "**Linear feet.** Every foot of roof edge that needs a gutter adds material and labor. A 140-foot roofline costs less than a 260-foot one.",
-          "**Gutter size.** Five-inch is the standard. Six-inch costs about 10 to 20 percent more, and it is common on large Orlando roofs because summer storms move a lot of water fast.",
+          "**Gutter size.** Five-inch is the standard. Six-inch costs about 20 to 30 percent more, and it is common on large Orlando roofs because summer storms move a lot of water fast.",
           "**Metal gauge.** .032-inch aluminum resists dents and sagging better than .027-inch. Ask which one the quote assumes.",
           "**Downspout count and size.** A 3x4 downspout has twice the opening area of a 2x3, and big roof planes often need more of them.",
           "**Roof and access.** Two stories, steep pitches, and tile roofs slow the crew down and add cost."
@@ -266,10 +266,10 @@ export const blogPosts: BlogPost[] = [
           "For a fuller breakdown by linear foot, read our guide to [gutter installation cost per foot in Florida](/blog/gutter-cost-per-foot-florida)."
         ],
         "bullets": [
-          "**Single-story block or stucco home, simple roofline:** toward the low end of $1,200 to $4,500.",
+          "**Single-story block or stucco home, simple roofline:** toward the low end of $900 to $3,200.",
           "**Two-story home with a moderate roofline:** the middle of the range.",
           "**Large home, many corners, six-inch gutters, extra downspouts:** the upper end.",
-          "**Tile roof:** typically $1,800 to $6,000, because the gutter mounts to the fascia or rafter tails instead of clipping to the roof edge. See [tile roof gutter installation](/gutter-installation/tile-roof-gutter-installation)."
+          "**Tile roof:** typically $1,500 to $4,800, because the gutter mounts to the fascia or rafter tails instead of clipping to the roof edge. See [tile roof gutter installation](/gutter-installation/tile-roof-gutter-installation)."
         ]
       },
       {
@@ -295,7 +295,7 @@ export const blogPosts: BlogPost[] = [
         "id": "when-not-to-buy-new-gutters",
         "heading": "When Not to Buy New Gutters",
         "paragraphs": [
-          "Do not pay for new gutters if yours are sound and just clogged. A cleaning costs $120 to $450, a fraction of a new system. Do not replace them because of one leaking corner either, since a repair runs $150 to $600.",
+          "Do not pay for new gutters if yours are sound and just clogged. A cleaning costs $120 to $350, a fraction of a new system. Do not replace them because of one leaking corner either, since a repair runs $125 to $400.",
           "New gutters also will not fix a wet foundation caused by downspouts that empty beside the slab. Moving or extending the outlets often does more for less. If your gutters are failing along most of the run, the [free assessment](/gutter-installation/new-gutter-installation) will tell you which case you are in.",
           "For the wider picture on hiring, see [how to hire a gutter contractor in Orlando](/blog/how-to-hire-a-gutter-contractor-in-orlando). The [National Weather Service office in Melbourne](https://www.weather.gov/mlb/) publishes local rainfall data if you want to see how hard Central Florida storms hit before you size your system."
         ]
@@ -336,9 +336,9 @@ export const blogPosts: BlogPost[] = [
           "Notice how stories, roof type, and downspout count move the number more than the brand of metal."
         ],
         "bullets": [
-          "**A one-story block home in a 1990s Kissimmee subdivision, 140 feet, five-inch aluminum, three downspouts:** near the low end of the range, often in the low $1,000s to about $2,000.",
-          "**A two-story stucco home in Lake Mary, 230 feet, six-inch gutters, six downspouts, HOA-approved color:** in the middle of the range, roughly $3,000 to $4,000.",
-          "**A large tile-roof home in Windermere, 300 feet, six-inch gutters on brackets, eight downspouts, fascia repair:** in the tile range of $1,800 to $6,000, with the top end reached once repairs and extras are added."
+          "**A one-story block home in a 1990s Kissimmee subdivision, 140 feet, five-inch aluminum, three downspouts:** near the low end of the range, roughly $900 to $1,800.",
+          "**A two-story stucco home in Lake Mary, 230 feet, six-inch gutters, six downspouts, HOA-approved color:** in the middle of the range, roughly $2,300 to $3,200.",
+          "**A large tile-roof home in Windermere, 300 feet, six-inch gutters on brackets, eight downspouts, fascia repair:** in the tile range of $1,500 to $4,800, with the top end reached once repairs and extras are added."
         ]
       },
       {
@@ -360,7 +360,7 @@ export const blogPosts: BlogPost[] = [
     "faqs": [
       {
         "question": "How much does it cost to install gutters on a house in Orlando?",
-        "answer": "Typically $1,200 to $4,500 for a whole house. The final number depends on linear feet, gutter size, gauge, downspout count, and roof access."
+        "answer": "Typically $900 to $3,200 for a whole house. The final number depends on linear feet, gutter size, gauge, downspout count, and roof access."
       },
       {
         "question": "Are seamless gutters more expensive than sectional gutters?",
@@ -385,9 +385,9 @@ export const blogPosts: BlogPost[] = [
     "slug": "seamless-gutter-cost-orlando-fl",
     "title": "Seamless Gutter Cost in Orlando, FL: What You Will Actually Pay",
     "seoTitle": "Seamless Gutter Cost in Orlando, FL",
-    "metaDescription": "Seamless aluminum gutters in Orlando typically run $1,200 to $4,000 for a whole house, or $7 to $12 per foot. Here is what changes the number.",
-    "ogDescription": "Seamless aluminum gutters in Orlando cost about $7 to $12 per linear foot installed. Here is how that becomes a whole-house price.",
-    "excerpt": "Most Orlando homes pay $1,200 to $4,000 for seamless aluminum, roughly $7 to $12 per foot installed. Gauge, size, and corners move it.",
+    "metaDescription": "Seamless aluminum gutters in Orlando typically run $900 to $3,000 for a whole house, or $6 to $12 per foot. Here is what changes the number.",
+    "ogDescription": "Seamless aluminum gutters in Orlando cost about $6 to $12 per linear foot installed. Here is how that becomes a whole-house price.",
+    "excerpt": "Most Orlando homes pay $900 to $3,000 for seamless aluminum, roughly $6 to $12 per foot installed. Gauge, size, and corners move it.",
     "category": "Cost",
     "primaryKeyword": "seamless gutter cost Orlando",
     "date": "2026-05-29",
@@ -396,7 +396,7 @@ export const blogPosts: BlogPost[] = [
     "imageWidth": 1200,
     "imageHeight": 675,
     "intro": [
-      "Seamless aluminum gutters in Orlando typically cost **$1,200 to $4,000** for a whole house, or roughly **$7 to $12 per linear foot** installed. That range covers most single-family homes with standard five-inch gutters and 2x3 downspouts.",
+      "Seamless aluminum gutters in Orlando typically cost **$900 to $3,000** for a whole house, or roughly **$6 to $12 per linear foot** installed. That range covers most single-family homes with standard five-inch gutters and 2x3 downspouts.",
       "Seamless means the gutter is formed from a coil on your driveway and cut to the exact length of each run. There are no seams every ten feet, only at corners and downspout outlets. That is why they leak less than sectional gutters, and why they cost a little more per foot."
     ],
     "sections": [
@@ -408,7 +408,7 @@ export const blogPosts: BlogPost[] = [
           "Every inside and outside corner is a hand-sealed seam. A plain rectangle costs less per foot than a hip roof with dormers."
         ],
         "bullets": [
-          "**Small home, about 120 to 150 feet of gutter:** near the low end of $1,200 to $4,000.",
+          "**Small home, about 120 to 150 feet of gutter:** near the low end of $900 to $3,000.",
           "**Average two-story home, about 180 to 220 feet:** the middle.",
           "**Large home with many corners, 250 feet or more:** the high end, especially with six-inch gutters."
         ]
@@ -421,7 +421,7 @@ export const blogPosts: BlogPost[] = [
         ],
         "bullets": [
           "**Gauge.** .032-inch aluminum resists dents and sagging better than .027-inch and costs a little more.",
-          "**Size.** Six-inch gutters run about 10 to 20 percent above five-inch.",
+          "**Size.** Six-inch gutters run about 20 to 30 percent above five-inch.",
           "**Color.** White, brown, and black are stock. Other colors can mean a special coil order.",
           "**Height.** Second-story work takes longer and costs more per foot."
         ]
@@ -484,12 +484,12 @@ export const blogPosts: BlogPost[] = [
         "id": "sample-seamless-quotes-by-home",
         "heading": "Sample Seamless Quotes by Home",
         "paragraphs": [
-          "These are illustrations of how footage and features change the price, using the typical range of $7 to $12 per foot installed."
+          "These are illustrations of how footage and features change the price, using the typical range of $6 to $12 per foot installed."
         ],
         "bullets": [
-          "**150 feet, single story, five-inch, stock color:** about $1,050 to $1,800 before extras.",
-          "**220 feet, two story, five-inch .032-inch, six downspouts:** about $1,540 to $2,640, plus the added cost of second-story work.",
-          "**260 feet, two story, six-inch, custom color, extra downspouts:** into the upper part of the $1,200 to $4,000 range."
+          "**150 feet, single story, five-inch, stock color:** about $900 to $1,800 before extras.",
+          "**220 feet, two story, five-inch .032-inch, six downspouts:** about $1,320 to $2,640, plus the added cost of second-story work.",
+          "**260 feet, two story, six-inch, custom color, extra downspouts:** into the upper part of the $900 to $3,000 range."
         ]
       },
       {
@@ -516,7 +516,7 @@ export const blogPosts: BlogPost[] = [
     "faqs": [
       {
         "question": "How much do seamless gutters cost per foot in Orlando?",
-        "answer": "Roughly $7 to $12 per linear foot installed for standard five-inch aluminum. Heavier gauge and six-inch profiles cost more."
+        "answer": "Roughly $6 to $12 per linear foot installed for standard five-inch aluminum. Heavier gauge and six-inch profiles cost more."
       },
       {
         "question": "How long do seamless aluminum gutters last in Florida?",
@@ -541,9 +541,9 @@ export const blogPosts: BlogPost[] = [
     "slug": "gutter-replacement-cost-florida",
     "title": "Gutter Replacement Cost in Florida: When New Gutters Beat Another Repair",
     "seoTitle": "Gutter Replacement Cost in Florida",
-    "metaDescription": "Gutter replacement in Florida typically costs $1,500 to $5,500 including tear-off. See when replacing beats another repair and what adds to the bill.",
-    "ogDescription": "Replacing gutters in Florida usually costs $1,500 to $5,500. If more than a third of your run needs work, replacing often costs less than repairing.",
-    "excerpt": "Full replacement runs $1,500 to $5,500 with tear-off. If a third of the run needs repair, replacement is often the better spend.",
+    "metaDescription": "Gutter replacement in Florida typically costs $1,100 to $3,800 including tear-off. See when replacing beats another repair and what adds to the bill.",
+    "ogDescription": "Replacing gutters in Florida usually costs $1,100 to $3,800. If more than a third of your run needs work, replacing often costs less than repairing.",
+    "excerpt": "Full replacement runs $1,100 to $3,800 with tear-off. If a third of the run needs repair, replacement is often the better spend.",
     "category": "Cost",
     "primaryKeyword": "gutter replacement cost Florida",
     "date": "2026-05-31",
@@ -552,7 +552,7 @@ export const blogPosts: BlogPost[] = [
     "imageWidth": 1200,
     "imageHeight": 675,
     "intro": [
-      "Gutter replacement in Florida typically costs **$1,500 to $5,500** for a whole house, including tear-off and disposal of the old system. That is a few hundred dollars more than a first-time install on the same house, because the crew removes the old gutters and often repairs the fascia underneath.",
+      "Gutter replacement in Florida typically costs **$1,100 to $3,800** for a whole house, including tear-off and disposal of the old system. That is a few hundred dollars more than a first-time install on the same house, because the crew removes the old gutters and often repairs the fascia underneath.",
       "Replacement makes sense when the old system is failing along most of its length. It does not make sense for one leaking corner."
     ],
     "sections": [
@@ -640,7 +640,7 @@ export const blogPosts: BlogPost[] = [
         "id": "replacement-cost-examples",
         "heading": "Replacement Cost Examples",
         "paragraphs": [
-          "These examples illustrate the range of $1,500 to $5,500 and are not quotes."
+          "These examples illustrate the range of $1,100 to $3,800 and are not quotes."
         ],
         "bullets": [
           "**A 1980s single-story home, 160 feet, sectional gutters removed and replaced with seamless aluminum, sound fascia:** in the lower part of the range.",
@@ -667,7 +667,7 @@ export const blogPosts: BlogPost[] = [
     "faqs": [
       {
         "question": "How much does it cost to replace gutters in Florida?",
-        "answer": "Typically $1,500 to $5,500 for a whole house, including tear-off and disposal. Fascia repair is a separate line if the wood is soft."
+        "answer": "Typically $1,100 to $3,800 for a whole house, including tear-off and disposal. Fascia repair is a separate line if the wood is soft."
       },
       {
         "question": "Is it cheaper to repair or replace gutters?",
@@ -692,9 +692,9 @@ export const blogPosts: BlogPost[] = [
     "slug": "gutter-guard-cost-orlando",
     "title": "Gutter Guard Cost in Orlando, FL: Prices by Guard Type",
     "seoTitle": "Gutter Guard Cost in Orlando, FL",
-    "metaDescription": "Gutter guards in Orlando cost $1,000 to $4,500 installed, about $5 to $25 per foot. Compare screen, reverse-curve, and micro-mesh, and see if they pay off.",
-    "ogDescription": "Gutter guards in Orlando run $1,000 to $4,500 for a whole house. Here is what each style costs and when it pays for itself.",
-    "excerpt": "Guards run $1,000 to $4,500 for a whole house. Style, linear feet, and your trees decide whether they pay for themselves.",
+    "metaDescription": "Gutter guards in Orlando cost $800 to $3,500 installed, about $4 to $15 per foot. Compare screen, reverse-curve, and micro-mesh, and see if they pay off.",
+    "ogDescription": "Gutter guards in Orlando run $800 to $3,500 for a whole house. Here is what each style costs and when it pays for itself.",
+    "excerpt": "Guards run $800 to $3,500 for a whole house. Style, linear feet, and your trees decide whether they pay for themselves.",
     "category": "Cost",
     "primaryKeyword": "gutter guard cost Orlando",
     "date": "2026-06-02",
@@ -703,7 +703,7 @@ export const blogPosts: BlogPost[] = [
     "imageWidth": 1200,
     "imageHeight": 675,
     "intro": [
-      "Gutter guards in Orlando typically cost **$1,000 to $4,500** for a whole house, or roughly **$5 to $25 per linear foot** installed depending on the style. Basic screens sit near the bottom, and stainless micro-mesh sits near the top.",
+      "Gutter guards in Orlando typically cost **$800 to $3,500** for a whole house, or roughly **$4 to $15 per linear foot** installed depending on the style. Basic screens sit near the bottom, and stainless micro-mesh sits near the top.",
       "Whether that money comes back depends on your trees. A house under three oaks and a pine can spend more on cleanings than on guards in a few years. A house with no trees may never earn the cost back."
     ],
     "sections": [
@@ -715,7 +715,7 @@ export const blogPosts: BlogPost[] = [
         ],
         "bullets": [
           "**Screen or perforated aluminum.** The low end of the price range. It stops leaves and lets small debris through.",
-          "**Micro-mesh.** Fine stainless mesh over an aluminum frame, roughly $8 to $25 per foot. It handles pine needles and shingle grit better than anything else. See [micro-mesh gutter guards](/gutter-guards/micro-mesh-gutter-guards).",
+          "**Micro-mesh.** Fine stainless mesh over an aluminum frame, roughly $7 to $20 per foot. It handles pine needles and shingle grit better than anything else. See [micro-mesh gutter guards](/gutter-guards/micro-mesh-gutter-guards).",
           "**Reverse-curve covers.** Water follows a curved lip into the gutter. They can shed water past the edge in a heavy downpour.",
           "**Foam inserts.** Cheap, and they clog with fine debris and grow algae in Florida humidity.",
           "**Brush inserts.** Also cheap, and they trap needles instead of shedding them."
@@ -737,7 +737,7 @@ export const blogPosts: BlogPost[] = [
         "id": "the-cost-of-not-buying-guards",
         "heading": "The Cost of Not Buying Guards",
         "paragraphs": [
-          "Compare the total to what you spend on cleaning. A cleaning runs $120 to $450 depending on stories and debris. A house that needs three or four cleanings a year under oaks spends $360 to $1,800 annually, which is why guards can pay off there.",
+          "Compare the total to what you spend on cleaning. A cleaning runs $120 to $350 depending on stories and debris. A house that needs three or four cleanings a year under oaks spends $360 to $1,400 annually, which is why guards can pay off there.",
           "See our estimates in [gutter cleaning cost in Orlando](/blog/gutter-cleaning-cost-orlando) to run your own numbers."
         ]
       },
@@ -789,11 +789,11 @@ export const blogPosts: BlogPost[] = [
         "id": "guard-cost-examples",
         "heading": "Guard Cost Examples",
         "paragraphs": [
-          "These illustrate the range of $1,000 to $4,500 and are not quotes."
+          "These illustrate the range of $800 to $3,500 and are not quotes."
         ],
         "bullets": [
-          "**180 feet of basic aluminum screen, first floor only:** near the low end, roughly $900 to $1,800.",
-          "**220 feet of micro-mesh on a two-story home:** in the middle to upper part, roughly $1,800 to $5,500.",
+          "**180 feet of basic aluminum screen, first floor only:** near the low end, roughly $700 to $1,500.",
+          "**220 feet of micro-mesh on a two-story home:** in the middle to upper part, roughly $1,500 to $4,500.",
           "**A home with a tile roof and mixed heights:** higher, because mounting and access take longer."
         ]
       },
@@ -816,7 +816,7 @@ export const blogPosts: BlogPost[] = [
     "faqs": [
       {
         "question": "How much do gutter guards cost in Orlando?",
-        "answer": "Typically $1,000 to $4,500 for a whole house, at roughly $5 to $25 per linear foot depending on the style."
+        "answer": "Typically $800 to $3,500 for a whole house, at roughly $4 to $15 per linear foot depending on the style."
       },
       {
         "question": "Are micro-mesh guards worth the extra cost?",
@@ -841,9 +841,9 @@ export const blogPosts: BlogPost[] = [
     "slug": "copper-gutter-cost-florida",
     "title": "Copper Gutter Cost in Florida: Is It Worth It?",
     "seoTitle": "Copper Gutter Cost in Florida",
-    "metaDescription": "Copper gutters in Florida typically cost $4,500 to $16,000, about $25 to $40 per foot installed. See what you get, and when aluminum is the smarter buy.",
-    "ogDescription": "Copper gutters in Florida run $4,500 to $16,000 installed. Here is when that price makes sense and when aluminum does the job.",
-    "excerpt": "Copper runs $4,500 to $16,000 installed, three to four times aluminum. It pays off on a home you will keep for decades.",
+    "metaDescription": "Copper gutters in Florida typically cost $4,000 to $14,000, about $25 to $50 per foot installed. See what you get, and when aluminum is the smarter buy.",
+    "ogDescription": "Copper gutters in Florida run $4,000 to $14,000 installed. Here is when that price makes sense and when aluminum does the job.",
+    "excerpt": "Copper runs $4,000 to $14,000 installed, three to four times aluminum. It pays off on a home you will keep for decades.",
     "category": "Cost",
     "primaryKeyword": "copper gutters cost Florida",
     "date": "2026-06-04",
@@ -852,7 +852,7 @@ export const blogPosts: BlogPost[] = [
     "imageWidth": 1200,
     "imageHeight": 675,
     "intro": [
-      "Copper gutters in Florida typically cost **$4,500 to $16,000** for a whole house, at roughly **$25 to $40 per linear foot** installed. That is three to four times the price of seamless aluminum.",
+      "Copper gutters in Florida typically cost **$4,000 to $14,000** for a whole house, at roughly **$25 to $50 per linear foot** installed. That is three to four times the price of seamless aluminum.",
       "Copper can last 50 years or more, never needs painting, and weathers to a brown-then-green patina. It is a good buy on a home you will keep for decades, and a poor one if you are selling in two years."
     ],
     "sections": [
@@ -938,7 +938,7 @@ export const blogPosts: BlogPost[] = [
         "id": "copper-cost-examples",
         "heading": "Copper Cost Examples",
         "paragraphs": [
-          "These examples illustrate the range of $4,500 to $16,000 and are not quotes."
+          "These examples illustrate the range of $4,000 to $14,000 and are not quotes."
         ],
         "bullets": [
           "**A smaller home, 150 feet of five-inch K-style copper, four downspouts:** near the lower end.",
@@ -965,7 +965,7 @@ export const blogPosts: BlogPost[] = [
     "faqs": [
       {
         "question": "How much do copper gutters cost per foot in Florida?",
-        "answer": "Roughly $25 to $40 per linear foot installed for standard profiles. Half-round and custom sizes cost more."
+        "answer": "Roughly $25 to $50 per linear foot installed for standard profiles. Half-round and custom sizes cost more."
       },
       {
         "question": "How long do copper gutters last?",
@@ -990,9 +990,9 @@ export const blogPosts: BlogPost[] = [
     "slug": "gutter-repair-cost-orlando",
     "title": "Gutter Repair Cost in Orlando, FL: What Common Fixes Run",
     "seoTitle": "Gutter Repair Cost in Orlando, FL",
-    "metaDescription": "Gutter repair in Orlando typically costs $150 to $900. See prices for leaks, sagging runs, and storm damage, and when replacement is the better spend.",
-    "ogDescription": "Most Orlando gutter repairs run $150 to $900. Here is what leaks, sags, and storm damage typically cost, and when to replace instead.",
-    "excerpt": "Leaks run $150 to $600, sagging runs $200 to $900, and storm repairs $250 to $2,500. Here is how to tell what you need.",
+    "metaDescription": "Gutter repair in Orlando typically costs $125 to $600. See prices for leaks, sagging runs, and storm damage, and when replacement is the better spend.",
+    "ogDescription": "Most Orlando gutter repairs run $125 to $600. Here is what leaks, sags, and storm damage typically cost, and when to replace instead.",
+    "excerpt": "Leaks run $125 to $400, sagging runs $150 to $600, and storm repairs $250 to $2,000. Here is how to tell what you need.",
     "category": "Cost",
     "primaryKeyword": "gutter repair cost Orlando",
     "date": "2026-06-06",
@@ -1001,7 +1001,7 @@ export const blogPosts: BlogPost[] = [
     "imageWidth": 1200,
     "imageHeight": 675,
     "intro": [
-      "Gutter repair in Orlando typically costs **$150 to $900** for common fixes, and up to **$2,500** after storm damage. A leaking seam is at the low end. Re-hanging a long sagging run is at the high end.",
+      "Gutter repair in Orlando typically costs **$125 to $600** for common fixes, and up to **$2,000** after storm damage. A leaking seam is at the low end. Re-hanging a long sagging run is at the high end.",
       "The price depends less on the size of the problem than on why it happened. A repair that ignores the cause comes back next season."
     ],
     "sections": [
@@ -1012,11 +1012,11 @@ export const blogPosts: BlogPost[] = [
           "Typical ranges for a single-family home:"
         ],
         "bullets": [
-          "**Leaking corner, seam, or end cap:** $150 to $600. See [gutter leak repair](/gutter-repair/gutter-leak-repair).",
-          "**Sagging or pulled-away gutters:** $200 to $900, more if fascia needs repair. See [sagging gutter repair](/gutter-repair/sagging-gutter-repair).",
-          "**Storm damage, bent or torn-off runs:** $250 to $2,500.",
-          "**Clogged or detached downspout:** $120 to $700.",
-          "**Gutter cleaning and flush:** $120 to $450."
+          "**Leaking corner, seam, or end cap:** $125 to $400. See [gutter leak repair](/gutter-repair/gutter-leak-repair).",
+          "**Sagging or pulled-away gutters:** $150 to $600, more if fascia needs repair. See [sagging gutter repair](/gutter-repair/sagging-gutter-repair).",
+          "**Storm damage, bent or torn-off runs:** $250 to $2,000.",
+          "**Clogged or detached downspout:** $75 to $450.",
+          "**Gutter cleaning and flush:** $120 to $350."
         ]
       },
       {
@@ -1094,9 +1094,9 @@ export const blogPosts: BlogPost[] = [
           "These illustrate the ranges and are not quotes."
         ],
         "bullets": [
-          "**One leaking end cap on a first-story gutter:** at the low end of $150 to $600.",
-          "**A 20-foot run re-hung with new hidden hangers and re-pitched:** in the lower part of $200 to $900.",
-          "**A storm-bent 30-foot section replaced, with a repaired fascia board:** in the middle of the $250 to $2,500 storm range."
+          "**One leaking end cap on a first-story gutter:** at the low end of $125 to $400.",
+          "**A 20-foot run re-hung with new hidden hangers and re-pitched:** in the lower part of $150 to $600.",
+          "**A storm-bent 30-foot section replaced, with a repaired fascia board:** in the middle of the $250 to $2,000 storm range."
         ]
       },
       {
@@ -1118,7 +1118,7 @@ export const blogPosts: BlogPost[] = [
     "faqs": [
       {
         "question": "How much does it cost to fix a leaking gutter in Orlando?",
-        "answer": "Typically $150 to $600 depending on the number of leaks and how hard they are to reach."
+        "answer": "Typically $125 to $400 depending on the number of leaks and how hard they are to reach."
       },
       {
         "question": "Can sagging gutters be fixed without replacing them?",
@@ -1143,9 +1143,9 @@ export const blogPosts: BlogPost[] = [
     "slug": "gutter-cleaning-cost-orlando",
     "title": "Gutter Cleaning Cost in Orlando, FL: What to Expect Per Visit",
     "seoTitle": "Gutter Cleaning Cost in Orlando, FL",
-    "metaDescription": "Gutter cleaning in Orlando typically costs $120 to $450 per visit. See what changes the price, how often to book, and what a proper cleaning includes.",
-    "ogDescription": "Most Orlando gutter cleanings cost $120 to $450. Stories, trees, and downspout clogs decide where yours lands.",
-    "excerpt": "A typical Orlando cleaning runs $120 to $450. Stories, tree cover, and clogged downspouts decide the price.",
+    "metaDescription": "Gutter cleaning in Orlando typically costs $120 to $350 per visit. See what changes the price, how often to book, and what a proper cleaning includes.",
+    "ogDescription": "Most Orlando gutter cleanings cost $120 to $350. Stories, trees, and downspout clogs decide where yours lands.",
+    "excerpt": "A typical Orlando cleaning runs $120 to $350. Stories, tree cover, and clogged downspouts decide the price.",
     "category": "Cost",
     "primaryKeyword": "gutter cleaning cost Orlando",
     "date": "2026-06-08",
@@ -1154,7 +1154,7 @@ export const blogPosts: BlogPost[] = [
     "imageWidth": 1200,
     "imageHeight": 675,
     "intro": [
-      "Gutter cleaning in Orlando typically costs **$120 to $450** per visit. A one-story house with light debris sits near the bottom. A two-story house under heavy oak or pine cover sits near the top.",
+      "Gutter cleaning in Orlando typically costs **$120 to $350** per visit. A one-story house with light debris sits near the bottom. A two-story house under heavy oak or pine cover sits near the top.",
       "A cleaning that costs $120 and ends with nobody running water through the gutters is worth less than one that costs $250 and includes a flush. The water test is what finds clogged downspouts and leaking seams."
     ],
     "sections": [
@@ -1242,7 +1242,7 @@ export const blogPosts: BlogPost[] = [
         "id": "cleaning-cost-examples",
         "heading": "Cleaning Cost Examples",
         "paragraphs": [
-          "These examples illustrate the range of $120 to $450 and are not quotes."
+          "These examples illustrate the range of $120 to $350 and are not quotes."
         ],
         "bullets": [
           "**A one-story home, 150 feet, light oak debris:** near the low end.",
@@ -1269,7 +1269,7 @@ export const blogPosts: BlogPost[] = [
     "faqs": [
       {
         "question": "How much does gutter cleaning cost in Orlando?",
-        "answer": "Typically $120 to $450 per visit depending on stories, linear feet, and how packed the gutters are."
+        "answer": "Typically $120 to $350 per visit depending on stories, linear feet, and how packed the gutters are."
       },
       {
         "question": "Is gutter cleaning worth paying for?",
@@ -1294,9 +1294,9 @@ export const blogPosts: BlogPost[] = [
     "slug": "downspout-replacement-cost-florida",
     "title": "Downspout Replacement Cost in Florida: Prices for Common Jobs",
     "seoTitle": "Downspout Replacement Cost in Florida",
-    "metaDescription": "Downspout repair and replacement in Florida typically costs $120 to $700, with new installs from $200 to $1,200. See what changes the price.",
-    "ogDescription": "Downspout work in Florida runs $120 to $700 for repairs and $200 to $1,200 for new installs. Here is what changes the number.",
-    "excerpt": "Repairs run $120 to $700 and new installs $200 to $1,200. Count, size, and height decide the price.",
+    "metaDescription": "Downspout repair and replacement in Florida typically costs $75 to $450, with new installs from $120 to $800. See what changes the price.",
+    "ogDescription": "Downspout work in Florida runs $75 to $450 for repairs and $120 to $800 for new installs. Here is what changes the number.",
+    "excerpt": "Repairs run $75 to $450 and new installs $120 to $800. Count, size, and height decide the price.",
     "category": "Cost",
     "primaryKeyword": "downspout replacement cost Florida",
     "date": "2026-06-10",
@@ -1305,7 +1305,7 @@ export const blogPosts: BlogPost[] = [
     "imageWidth": 1200,
     "imageHeight": 675,
     "intro": [
-      "Downspout replacement and repair in Florida typically costs **$120 to $700**. Adding new downspouts to a house runs **$200 to $1,200**. The price depends on how many downspouts, how high they run, and whether the outlet has to move.",
+      "Downspout replacement and repair in Florida typically costs **$75 to $450**. Adding new downspouts to a house runs **$120 to $800**. The price depends on how many downspouts, how high they run, and whether the outlet has to move.",
       "Downspouts are the cheapest part of a gutter system and the part with the biggest effect on your foundation. Where they empty matters more than how they look."
     ],
     "sections": [
@@ -1316,11 +1316,11 @@ export const blogPosts: BlogPost[] = [
           "See [downspout repair and replacement](/downspouts/downspout-repair-replacement) and [downspout installation](/downspouts/downspout-installation) for how each job runs."
         ],
         "bullets": [
-          "**Replace one damaged section:** near the low end of $120 to $700.",
+          "**Replace one damaged section:** near the low end of $75 to $450.",
           "**Replace a full second-story run:** the upper end.",
-          "**Add one downspout to a long gutter run:** the low end of $200 to $1,200.",
+          "**Add one downspout to a long gutter run:** the low end of $120 to $800.",
           "**Add several and upsize to 3x4:** the upper end.",
-          "**Add an extension or splash block:** $100 to $600 across a whole house."
+          "**Add an extension or splash block:** $75 to $450 across a whole house."
         ]
       },
       {
@@ -1389,7 +1389,7 @@ export const blogPosts: BlogPost[] = [
     "faqs": [
       {
         "question": "How much does it cost to replace a downspout in Florida?",
-        "answer": "Typically $120 to $700 for repairs and replacement sections. New installs run $200 to $1,200."
+        "answer": "Typically $75 to $450 for repairs and replacement sections. New installs run $120 to $800."
       },
       {
         "question": "Should downspouts be 2x3 or 3x4?",
@@ -1414,9 +1414,9 @@ export const blogPosts: BlogPost[] = [
     "slug": "five-inch-vs-six-inch-gutters-florida",
     "title": "5-Inch vs. 6-Inch Gutters in Florida: Which Size Do You Need?",
     "seoTitle": "5-Inch vs. 6-Inch Gutters in Florida",
-    "metaDescription": "Six-inch gutters cost 10 to 20 percent more than five-inch but carry roughly half again the water. See which size fits your Orlando roof and rainfall.",
+    "metaDescription": "Six-inch gutters cost 20 to 30 percent more than five-inch but carry roughly half again the water. See which size fits your Orlando roof and rainfall.",
     "ogDescription": "Five-inch is the standard, but Central Florida downpours push many roofs to six-inch. Here is how to decide.",
-    "excerpt": "Six-inch gutters cost 10 to 20 percent more and carry far more water. Big roofs and Florida downpours often justify the upgrade.",
+    "excerpt": "Six-inch gutters cost 20 to 30 percent more and carry far more water. Big roofs and Florida downpours often justify the upgrade.",
     "category": "Materials",
     "primaryKeyword": "5 inch vs 6 inch gutters Florida",
     "date": "2026-06-12",
@@ -1425,7 +1425,7 @@ export const blogPosts: BlogPost[] = [
     "imageWidth": 1200,
     "imageHeight": 675,
     "intro": [
-      "Five-inch gutters are the standard, and they work for many homes. **Six-inch gutters** cost about 10 to 20 percent more and carry roughly half again the water, and in Central Florida they are worth it on large roofs, steep roofs, and tile roofs.",
+      "Five-inch gutters are the standard, and they work for many homes. **Six-inch gutters** cost about 20 to 30 percent more and carry roughly half again the water, and in Central Florida they are worth it on large roofs, steep roofs, and tile roofs.",
       "The reason is rainfall intensity. Orlando gets around 50 inches of rain a year, and a lot of it falls in short, hard summer storms. A gutter that handles a steady rain can overflow in a twenty-minute downpour."
     ],
     "sections": [
@@ -1438,7 +1438,7 @@ export const blogPosts: BlogPost[] = [
         "bullets": [
           "**Capacity.** A six-inch K-style gutter holds substantially more than a five-inch and pairs with a larger downspout.",
           "**Downspout pairing.** Six-inch gutters work best with 3x4 downspouts, which have twice the opening area of a 2x3.",
-          "**Cost.** Materials run about 10 to 20 percent higher, and hangers should be heavier because a full six-inch gutter weighs more."
+          "**Cost.** Materials run about 20 to 30 percent higher, and hangers should be heavier because a full six-inch gutter weighs more."
         ]
       },
       {
@@ -1520,7 +1520,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "question": "How much more do 6-inch gutters cost?",
-        "answer": "About 10 to 20 percent more than 5-inch, mostly in material."
+        "answer": "About 20 to 30 percent more than 5-inch, mostly in material."
       },
       {
         "question": "Can 6-inch gutters replace 5-inch on my house?",
@@ -1541,9 +1541,9 @@ export const blogPosts: BlogPost[] = [
     "slug": "gutter-cost-per-foot-florida",
     "title": "Gutter Installation Cost Per Foot in Florida",
     "seoTitle": "Gutter Cost Per Foot in Florida",
-    "metaDescription": "Gutter installation in Florida costs roughly $7 to $12 per foot for aluminum and $25 to $40 for copper. See per-foot prices by material and size.",
-    "ogDescription": "Aluminum gutters cost about $7 to $12 per foot installed in Florida, copper $25 to $40. Here is the per-foot breakdown.",
-    "excerpt": "Aluminum runs about $7 to $12 per foot installed, copper $25 to $40. Size, gauge, and roof access move the number.",
+    "metaDescription": "Gutter installation in Florida costs roughly $6 to $12 per foot for aluminum and $25 to $50 for copper. See per-foot prices by material and size.",
+    "ogDescription": "Aluminum gutters cost about $6 to $12 per foot installed in Florida, copper $25 to $50. Here is the per-foot breakdown.",
+    "excerpt": "Aluminum runs about $6 to $12 per foot installed, copper $25 to $50. Size, gauge, and roof access move the number.",
     "category": "Cost",
     "primaryKeyword": "gutter installation cost per foot Florida",
     "date": "2026-06-14",
@@ -1552,7 +1552,7 @@ export const blogPosts: BlogPost[] = [
     "imageWidth": 1200,
     "imageHeight": 675,
     "intro": [
-      "Gutter installation in Florida costs roughly **$7 to $12 per linear foot** for seamless aluminum and **$25 to $40 per foot** for copper. Those are installed prices, including labor, hangers, and standard downspouts.",
+      "Gutter installation in Florida costs roughly **$6 to $12 per linear foot** for seamless aluminum and **$25 to $50 per foot** for copper. Those are installed prices, including labor, hangers, and standard downspouts.",
       "Per-foot pricing makes quotes easy to compare, but only if you compare the same product. A low per-foot number often means thinner metal and wider hanger spacing."
     ],
     "sections": [
@@ -1561,10 +1561,10 @@ export const blogPosts: BlogPost[] = [
         "heading": "Per-Foot Prices by Material",
         "paragraphs": [],
         "bullets": [
-          "**Seamless aluminum, 5-inch:** about $7 to $12 per foot. See [seamless aluminum gutters](/seamless-gutters/seamless-aluminum-gutters).",
-          "**Seamless aluminum, 6-inch:** about 10 to 20 percent more.",
+          "**Seamless aluminum, 5-inch:** about $6 to $12 per foot. See [seamless aluminum gutters](/seamless-gutters/seamless-aluminum-gutters).",
+          "**Seamless aluminum, 6-inch:** about 20 to 30 percent more.",
           "**Half-round aluminum:** more per foot than K-style, and more again in copper.",
-          "**Copper:** about $25 to $40 per foot for standard profiles.",
+          "**Copper:** about $25 to $50 per foot for standard profiles.",
           "**Vinyl:** cheapest per foot, though it is a weak choice for Florida sun."
         ]
       },
@@ -1573,12 +1573,12 @@ export const blogPosts: BlogPost[] = [
         "heading": "Turning Per-Foot Into a Whole-House Number",
         "paragraphs": [
           "Measure the eaves that need gutters and multiply. A simple example:",
-          "Corners, second stories, and extra downspouts add on top. That is why whole-house ranges run $1,200 to $4,500 rather than a single figure. See [gutter installation cost in Orlando](/blog/gutter-installation-cost-orlando)."
+          "Corners, second stories, and extra downspouts add on top. That is why whole-house ranges run $900 to $3,200 rather than a single figure. See [gutter installation cost in Orlando](/blog/gutter-installation-cost-orlando)."
         ],
         "bullets": [
-          "**150 feet at $7 to $12** is about $1,050 to $1,800, before extra downspouts.",
-          "**220 feet at $7 to $12** is about $1,540 to $2,640.",
-          "**260 feet of six-inch at the upper end** pushes toward $4,000 or more."
+          "**150 feet at $6 to $12** is about $900 to $1,800, before extra downspouts.",
+          "**220 feet at $6 to $12** is about $1,320 to $2,640.",
+          "**260 feet of six-inch at the upper end** pushes toward $3,600 or more."
         ]
       },
       {
@@ -1685,7 +1685,7 @@ export const blogPosts: BlogPost[] = [
     "faqs": [
       {
         "question": "How much does gutter installation cost per foot in Florida?",
-        "answer": "Roughly $7 to $12 for seamless aluminum and $25 to $40 for copper, installed."
+        "answer": "Roughly $6 to $12 for seamless aluminum and $25 to $50 for copper, installed."
       },
       {
         "question": "How do I measure my house for gutters?",
@@ -1693,7 +1693,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "question": "Are 6-inch gutters much more per foot?",
-        "answer": "About 10 to 20 percent more than 5-inch."
+        "answer": "About 20 to 30 percent more than 5-inch."
       },
       {
         "question": "Does the per-foot price include downspouts?",
@@ -2581,7 +2581,7 @@ export const blogPosts: BlogPost[] = [
         "id": "compare-per-foot-not-just-total",
         "heading": "Compare Per Foot, Not Just Total",
         "paragraphs": [
-          "Divide each total by the linear feet. That gives you a per-foot number you can hold up against typical ranges. Seamless aluminum in Florida typically runs about $7 to $12 per foot installed, and copper $25 to $40. If one quote is far outside the range, ask why. Read [gutter cost per foot in Florida](/blog/gutter-cost-per-foot-florida) for the breakdown."
+          "Divide each total by the linear feet. That gives you a per-foot number you can hold up against typical ranges. Seamless aluminum in Florida typically runs about $6 to $12 per foot installed, and copper $25 to $50. If one quote is far outside the range, ask why. Read [gutter cost per foot in Florida](/blog/gutter-cost-per-foot-florida) for the breakdown."
         ]
       },
       {
@@ -2618,11 +2618,11 @@ export const blogPosts: BlogPost[] = [
         "heading": "A Worked Example",
         "paragraphs": [
           "Imagine two Orlando quotes for the same two-story stucco home with 210 feet of roofline.",
-          "Per foot, A is about $11 and B is about $15. B costs $800 more, and it includes heavier metal, closer hangers, two more downspouts, removal, and a longer warranty. If you asked A to match those items, its price would likely rise. The comparison only means something once the scopes match. This is an illustration of how to compare, not a quote."
+          "Per foot, A is about $7 and B is about $11. B costs $800 more, and it includes heavier metal, closer hangers, two more downspouts, removal, and a longer warranty. If you asked A to match those items, its price would likely rise. The comparison only means something once the scopes match. This is an illustration of how to compare, not a quote."
         ],
         "bullets": [
-          "**Quote A: $2,300.** Five-inch .027-inch aluminum, hangers every 36 inches, four downspouts, no removal, no fascia work, one-year warranty.",
-          "**Quote B: $3,100.** Five-inch .032-inch aluminum, hidden hangers every 24 inches, six downspouts, tear-off and haul-away included, fascia inspected with boards priced per foot, five-year workmanship warranty."
+          "**Quote A: $1,500.** Five-inch .027-inch aluminum, hangers every 36 inches, four downspouts, no removal, no fascia work, one-year warranty.",
+          "**Quote B: $2,300.** Five-inch .032-inch aluminum, hidden hangers every 24 inches, six downspouts, tear-off and haul-away included, fascia inspected with boards priced per foot, five-year workmanship warranty."
         ]
       },
       {
@@ -3411,7 +3411,7 @@ export const blogPosts: BlogPost[] = [
         "id": "cost-and-payback",
         "heading": "Cost and Payback",
         "paragraphs": [
-          "Whole-house gutters typically run $1,200 to $4,500 in the Orlando area, and it is a modest cost against foundation and landscape repair. Read [gutter installation cost in Orlando](/blog/gutter-installation-cost-orlando) for the details. The [University of Florida IFAS Extension](https://edis.ifas.ufl.edu/) offers guidance on managing water and erosion in Florida yards."
+          "Whole-house gutters typically run $900 to $3,200 in the Orlando area, and it is a modest cost against foundation and landscape repair. Read [gutter installation cost in Orlando](/blog/gutter-installation-cost-orlando) for the details. The [University of Florida IFAS Extension](https://edis.ifas.ufl.edu/) offers guidance on managing water and erosion in Florida yards."
         ]
       },
       {
@@ -3454,7 +3454,7 @@ export const blogPosts: BlogPost[] = [
         "id": "cost-benefit-for-central-florida-homes",
         "heading": "Cost-Benefit for Central Florida Homes",
         "paragraphs": [
-          "Gutters cost $1,200 to $4,500 on a typical Orlando home. Repairing erosion, replacing washed-out landscaping, and cleaning stucco add up over time, and a wet slab is worse. If your house shows the signs above, gutters are often the cheapest way to fix the cause. For a step-by-step look at foundation risk, read [a house without gutters in Florida](/blog/house-without-gutters-foundation-florida). The [National Weather Service in Melbourne](https://www.weather.gov/mlb/) publishes rainfall data if you want to see how much water your roof handles."
+          "Gutters cost $900 to $3,200 on a typical Orlando home. Repairing erosion, replacing washed-out landscaping, and cleaning stucco add up over time, and a wet slab is worse. If your house shows the signs above, gutters are often the cheapest way to fix the cause. For a step-by-step look at foundation risk, read [a house without gutters in Florida](/blog/house-without-gutters-foundation-florida). The [National Weather Service in Melbourne](https://www.weather.gov/mlb/) publishes rainfall data if you want to see how much water your roof handles."
         ]
       }
     ],
@@ -3473,7 +3473,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "question": "How much do gutters cost in Orlando?",
-        "answer": "Typically $1,200 to $4,500 for a whole house."
+        "answer": "Typically $900 to $3,200 for a whole house."
       }
     ],
     "relatedPosts": [
@@ -3666,7 +3666,7 @@ export const blogPosts: BlogPost[] = [
         "id": "what-it-costs",
         "heading": "What It Costs",
         "paragraphs": [
-          "Gutters on a tile roof typically cost $1,800 to $6,000 for a whole house, versus $1,200 to $4,500 for shingle. The difference comes from slower mounting, larger gutters, and sometimes extra roof-edge details. Read [tile roof gutter installation](/gutter-installation/tile-roof-gutter-installation) for the process."
+          "Gutters on a tile roof typically cost $1,500 to $4,800 for a whole house, versus $900 to $3,200 for shingle. The difference comes from slower mounting, larger gutters, and sometimes extra roof-edge details. Read [tile roof gutter installation](/gutter-installation/tile-roof-gutter-installation) for the process."
         ]
       },
       {
@@ -3700,7 +3700,7 @@ export const blogPosts: BlogPost[] = [
         "id": "cost-example-for-a-tile-roof",
         "heading": "Cost Example for a Tile Roof",
         "paragraphs": [
-          "Take a two-story home in a Winter Garden community, about 220 feet of roofline, concrete tile roof, stucco walls, and no gutters. A quote for six-inch seamless aluminum on fascia brackets with 3x4 downspouts might land at the mid-to-upper part of the $1,800 to $6,000 range, higher if fascia needs repair or the roofline has many valleys. The same footage in shingle with five-inch gutters and 2x3 downspouts would be in the lower part of the $1,200 to $4,500 range. This is an illustration of how scope moves the price, not a quote."
+          "Take a two-story home in a Winter Garden community, about 220 feet of roofline, concrete tile roof, stucco walls, and no gutters. A quote for six-inch seamless aluminum on fascia brackets with 3x4 downspouts might land at the mid-to-upper part of the $1,500 to $4,800 range, higher if fascia needs repair or the roofline has many valleys. The same footage in shingle with five-inch gutters and 2x3 downspouts would be in the lower part of the $900 to $3,200 range. This is an illustration of how scope moves the price, not a quote."
         ]
       },
       {
@@ -3736,7 +3736,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "question": "How much do gutters cost on a tile roof in Florida?",
-        "answer": "Typically $1,800 to $6,000 for a whole house, about 20 to 40 percent more than shingle."
+        "answer": "Typically $1,500 to $4,800 for a whole house, about 20 to 40 percent more than shingle."
       },
       {
         "question": "Will installing gutters crack my tile?",
@@ -3815,7 +3815,7 @@ export const blogPosts: BlogPost[] = [
         "id": "when-gutters-are-the-cheapest-answer",
         "heading": "When Gutters Are the Cheapest Answer",
         "paragraphs": [
-          "On a house with short eaves and a bed of plants against the wall, gutters at $1,200 to $4,500 are often cheaper than repeated landscaping and repair. On a house with wide overhangs and a concrete apron, they may add little. See [do Florida homes need gutters](/blog/do-florida-homes-need-gutters)."
+          "On a house with short eaves and a bed of plants against the wall, gutters at $900 to $3,200 are often cheaper than repeated landscaping and repair. On a house with wide overhangs and a concrete apron, they may add little. See [do Florida homes need gutters](/blog/do-florida-homes-need-gutters)."
         ]
       },
       {
@@ -3916,7 +3916,7 @@ export const blogPosts: BlogPost[] = [
           "**No rust.** Aluminum oxidizes on the surface without flaking away.",
           "**Finish.** A baked-on factory coating holds color well in Florida sun.",
           "**Weight.** It is light enough to hang cleanly in long seamless runs.",
-          "**Cost.** About $7 to $12 per foot installed.",
+          "**Cost.** About $6 to $12 per foot installed.",
           "**Lifespan.** Twenty years or more with proper care."
         ]
       },
@@ -3924,7 +3924,7 @@ export const blogPosts: BlogPost[] = [
         "id": "copper",
         "heading": "Copper",
         "paragraphs": [
-          "Copper is a premium option that lasts 50 years or more and never needs painting. It costs about $25 to $40 per foot installed, and it must not touch aluminum or galvanized steel. It suits Mediterranean and historic homes. Read [copper gutter cost in Florida](/blog/copper-gutter-cost-florida)."
+          "Copper is a premium option that lasts 50 years or more and never needs painting. It costs about $25 to $50 per foot installed, and it must not touch aluminum or galvanized steel. It suits Mediterranean and historic homes. Read [copper gutter cost in Florida](/blog/copper-gutter-cost-florida)."
         ]
       },
       {
@@ -4072,7 +4072,7 @@ export const blogPosts: BlogPost[] = [
         "id": "cost-comparison",
         "heading": "Cost Comparison",
         "paragraphs": [
-          "Vinyl typically costs less per foot than aluminum, but the gap can be smaller than expected once you count labor and downspouts. Seamless aluminum runs about $7 to $12 per foot installed, and a durable system saves repairs and replacement. See [gutter cost per foot in Florida](/blog/gutter-cost-per-foot-florida)."
+          "Vinyl typically costs less per foot than aluminum, but the gap can be smaller than expected once you count labor and downspouts. Seamless aluminum runs about $6 to $12 per foot installed, and a durable system saves repairs and replacement. See [gutter cost per foot in Florida](/blog/gutter-cost-per-foot-florida)."
         ]
       },
       {
@@ -4623,7 +4623,7 @@ export const blogPosts: BlogPost[] = [
         "id": "step-6-choose-repair-or-replacement",
         "heading": "Step 6: Choose Repair or Replacement",
         "paragraphs": [
-          "If damage is local, repair the run. See [storm damage gutter repair](/gutter-repair/storm-damage-gutter-repair). If several runs are bent or torn, or the system was near the end of its life, replacement may be smarter. Typical repairs run $250 to $2,500 after storm damage."
+          "If damage is local, repair the run. See [storm damage gutter repair](/gutter-repair/storm-damage-gutter-repair). If several runs are bent or torn, or the system was near the end of its life, replacement may be smarter. Typical repairs run $250 to $2,000 after storm damage."
         ]
       },
       {
@@ -4682,7 +4682,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "question": "How much does storm damage gutter repair cost?",
-        "answer": "Typically $250 to $2,500 depending on how many runs are affected."
+        "answer": "Typically $250 to $2,000 depending on how many runs are affected."
       },
       {
         "question": "Should I fix gutters before filing an insurance claim?",
@@ -4962,7 +4962,7 @@ export const blogPosts: BlogPost[] = [
         "id": "adding-hangers-to-existing-gutters",
         "heading": "Adding Hangers to Existing Gutters",
         "paragraphs": [
-          "If your gutters are sound and only lack support, adding hidden hangers between the existing ones is a modest repair. The installer screws new hangers into solid fascia and checks pitch. It is not a fix for rotted wood or a run that is bent. Sagging repairs typically run $200 to $900. See [sagging gutter repair](/gutter-repair/sagging-gutter-repair)."
+          "If your gutters are sound and only lack support, adding hidden hangers between the existing ones is a modest repair. The installer screws new hangers into solid fascia and checks pitch. It is not a fix for rotted wood or a run that is bent. Sagging repairs typically run $150 to $600. See [sagging gutter repair](/gutter-repair/sagging-gutter-repair)."
         ]
       },
       {
@@ -5033,7 +5033,7 @@ export const blogPosts: BlogPost[] = [
         "id": "the-deductible-problem",
         "heading": "The Deductible Problem",
         "paragraphs": [
-          "Florida homeowners policies usually have a hurricane deductible that applies to a named storm, commonly set as a percentage of the dwelling coverage, such as 2, 5, or 10 percent. On a home insured for $400,000, a 2 percent deductible is $8,000. Most gutter repairs, which run $250 to $2,500, fall well below that.",
+          "Florida homeowners policies usually have a hurricane deductible that applies to a named storm, commonly set as a percentage of the dwelling coverage, such as 2, 5, or 10 percent. On a home insured for $400,000, a 2 percent deductible is $8,000. Most gutter repairs, which run $250 to $2,000, fall well below that.",
           "That means for a gutter-only loss, filing may not make sense. Check your policy for the amount and how it applies."
         ]
       },
@@ -5351,7 +5351,7 @@ export const blogPosts: BlogPost[] = [
         "id": "cost-and-timing",
         "heading": "Cost and Timing",
         "paragraphs": [
-          "Cleaning typically runs $120 to $450 per visit. Three visits a year under heavy cover can cost more than guards would, which is the point at which guards may pay off. Read [gutter cleaning cost in Orlando](/blog/gutter-cleaning-cost-orlando) and [are gutter guards worth it in Orlando](/blog/are-gutter-guards-worth-it-orlando)."
+          "Cleaning typically runs $120 to $350 per visit. Three visits a year under heavy cover can cost more than guards would, which is the point at which guards may pay off. Read [gutter cleaning cost in Orlando](/blog/gutter-cleaning-cost-orlando) and [are gutter guards worth it in Orlando](/blog/are-gutter-guards-worth-it-orlando)."
         ]
       },
       {
@@ -5450,7 +5450,7 @@ export const blogPosts: BlogPost[] = [
     "imageHeight": 675,
     "intro": [
       "Gutters overflow for five reasons: **clogs, poor pitch, too few downspouts, undersized gutters, and clogged downspouts**. In Orlando, heavy summer storms expose all five quickly, so the first step is to figure out which one you have.",
-      "Diagnosis matters because the fixes cost very different amounts. A cleaning is $120 to $450. New gutters are $1,200 to $4,500. Do not pay for the second when the first will do."
+      "Diagnosis matters because the fixes cost very different amounts. A cleaning is $120 to $350. New gutters are $900 to $3,200. Do not pay for the second when the first will do."
     ],
     "sections": [
       {
@@ -5560,11 +5560,11 @@ export const blogPosts: BlogPost[] = [
           "Start with the cheapest fix that fits the symptom. See gutter repair cost in Orlando."
         ],
         "bullets": [
-          "**Cleaning and flush:** $120 to $450",
-          "**Adding a downspout:** $200 to $1,200 across several",
-          "**Sagging repair and re-pitch:** $200 to $900",
-          "**Six-inch upgrade:** $1,600 to $5,500 whole house",
-          "**Drip edge:** $300 to $1,800"
+          "**Cleaning and flush:** $120 to $350",
+          "**Adding a downspout:** $120 to $800 across several",
+          "**Sagging repair and re-pitch:** $150 to $600",
+          "**Six-inch upgrade:** $1,200 to $4,200 whole house",
+          "**Drip edge:** $250 to $1,500"
         ]
       },
       {
@@ -5666,7 +5666,7 @@ export const blogPosts: BlogPost[] = [
         "id": "what-it-costs",
         "heading": "What It Costs",
         "paragraphs": [
-          "Leak repairs in Orlando typically run $150 to $600, depending on the number of leaks and access. See [gutter repair cost in Orlando](/blog/gutter-repair-cost-orlando)."
+          "Leak repairs in Orlando typically run $125 to $400, depending on the number of leaks and access. See [gutter repair cost in Orlando](/blog/gutter-repair-cost-orlando)."
         ]
       },
       {
@@ -5732,7 +5732,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "question": "How much does it cost to fix a gutter corner leak?",
-        "answer": "Typically $150 to $600 in Orlando, depending on the number of leaks."
+        "answer": "Typically $125 to $400 in Orlando, depending on the number of leaks."
       },
       {
         "question": "Can I fix a gutter corner myself?",
@@ -5841,7 +5841,7 @@ export const blogPosts: BlogPost[] = [
         "id": "what-it-costs",
         "heading": "What It Costs",
         "paragraphs": [
-          "Sagging repairs in Orlando typically run $200 to $900, more if fascia needs replacement. See [gutter repair cost in Orlando](/blog/gutter-repair-cost-orlando)."
+          "Sagging repairs in Orlando typically run $150 to $600, more if fascia needs replacement. See [gutter repair cost in Orlando](/blog/gutter-repair-cost-orlando)."
         ]
       },
       {
@@ -5899,7 +5899,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "question": "How much does it cost to fix sagging gutters?",
-        "answer": "Typically $200 to $900 in Orlando, depending on the length and fascia condition."
+        "answer": "Typically $150 to $600 in Orlando, depending on the length and fascia condition."
       },
       {
         "question": "Will more hangers stop the sag?",
@@ -5966,8 +5966,8 @@ export const blogPosts: BlogPost[] = [
           "Heavy cover can pay back in three to five years. With light cover and one cleaning a year, it may never. See [gutter guard cost in Orlando](/blog/gutter-guard-cost-orlando)."
         ],
         "bullets": [
-          "**Cleanings avoided.** At $120 to $450 per visit, three or four visits a year under heavy cover is $360 to $1,800 annually.",
-          "**Guard cost.** Whole-house guards typically run $1,000 to $4,500."
+          "**Cleanings avoided.** At $120 to $350 per visit, three or four visits a year under heavy cover is $360 to $1,400 annually.",
+          "**Guard cost.** Whole-house guards typically run $800 to $3,500."
         ]
       },
       {
@@ -6132,7 +6132,7 @@ export const blogPosts: BlogPost[] = [
         "id": "cost",
         "heading": "Cost",
         "paragraphs": [
-          "Micro-mesh typically runs $1,800 to $5,500 for a whole house, at roughly $8 to $25 per foot. See [gutter guard cost in Orlando](/blog/gutter-guard-cost-orlando) for the comparison with other styles."
+          "Micro-mesh typically runs $1,500 to $4,500 for a whole house, at roughly $7 to $20 per foot. See [gutter guard cost in Orlando](/blog/gutter-guard-cost-orlando) for the comparison with other styles."
         ]
       },
       {
@@ -6188,7 +6188,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "question": "How much do micro-mesh guards cost?",
-        "answer": "Roughly $8 to $25 per linear foot installed, or $1,800 to $5,500 for a whole house."
+        "answer": "Roughly $7 to $20 per linear foot installed, or $1,500 to $4,500 for a whole house."
       }
     ],
     "relatedPosts": [
@@ -6412,7 +6412,7 @@ export const blogPosts: BlogPost[] = [
         "id": "what-it-costs",
         "heading": "What It Costs",
         "paragraphs": [
-          "Exterior cleaning typically runs $120 to $450 depending on linear feet and stories, and it is often cheaper bundled with an interior cleaning. See [gutter cleaning cost in Orlando](/blog/gutter-cleaning-cost-orlando)."
+          "Exterior cleaning typically runs $120 to $350 depending on linear feet and stories, and it is often cheaper bundled with an interior cleaning. See [gutter cleaning cost in Orlando](/blog/gutter-cleaning-cost-orlando)."
         ]
       },
       {
@@ -6454,7 +6454,7 @@ export const blogPosts: BlogPost[] = [
         "id": "cleaning-costs-and-timing",
         "heading": "Cleaning Costs and Timing",
         "paragraphs": [
-          "Exterior gutter cleaning typically runs $120 to $450, and it is often cheaper as an add-on to an interior cleaning. Spring is a good time, after pollen season and before the wet season. Fall is another option, before the drier months. Ask whether the price includes downspouts, since those streak too."
+          "Exterior gutter cleaning typically runs $120 to $350, and it is often cheaper as an add-on to an interior cleaning. Spring is a good time, after pollen season and before the wet season. Fall is another option, before the drier months. Ask whether the price includes downspouts, since those streak too."
         ]
       },
       {
@@ -6559,7 +6559,7 @@ export const blogPosts: BlogPost[] = [
         "id": "cost",
         "heading": "Cost",
         "paragraphs": [
-          "Wood fascia repair typically runs $6 to $20 per linear foot, and composite or aluminum wrap costs more. A typical repair runs $400 to $2,500 depending on length. See [gutter replacement cost in Florida](/blog/gutter-replacement-cost-florida)."
+          "Wood fascia repair typically runs $6 to $20 per linear foot, and composite or aluminum wrap costs more. A typical repair runs $350 to $2,200 depending on length. See [gutter replacement cost in Florida](/blog/gutter-replacement-cost-florida)."
         ]
       },
       {
@@ -6598,7 +6598,7 @@ export const blogPosts: BlogPost[] = [
         "heading": "Cost Examples",
         "paragraphs": [
           "These illustrate how scope moves the price, not quotes.",
-          "The overall repair range in the area is typically $400 to $2,500. See [fascia board repair and replacement](/fascia-soffit/fascia-repair-replacement)."
+          "The overall repair range in the area is typically $350 to $2,200. See [fascia board repair and replacement](/fascia-soffit/fascia-repair-replacement)."
         ],
         "bullets": [
           "**Twenty feet of wood fascia at the low end of $6 to $20 per foot,** plus paint: a few hundred dollars.",
@@ -6621,7 +6621,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "question": "How much does fascia repair cost in Florida?",
-        "answer": "Wood repair runs about $6 to $20 per linear foot, and a typical job is $400 to $2,500."
+        "answer": "Wood repair runs about $6 to $20 per linear foot, and a typical job is $350 to $2,200."
       },
       {
         "question": "Can I put new gutters on rotted fascia?",
@@ -6862,7 +6862,7 @@ export const blogPosts: BlogPost[] = [
         "id": "what-it-costs",
         "heading": "What It Costs",
         "paragraphs": [
-          "Extensions typically run $100 to $600 across a house. Buried drains and emitters run $600 to $3,000. See [downspout replacement cost in Florida](/blog/downspout-replacement-cost-florida) for the price comparison."
+          "Extensions typically run $75 to $450 across a house. Buried drains and emitters run $500 to $2,500. See [downspout replacement cost in Florida](/blog/downspout-replacement-cost-florida) for the price comparison."
         ]
       },
       {
@@ -6898,7 +6898,7 @@ export const blogPosts: BlogPost[] = [
         "id": "cost-comparison",
         "heading": "Cost Comparison",
         "paragraphs": [
-          "Extensions typically run $100 to $600 across a house. Pop-up emitters run $250 to $900 each. Buried drains run $600 to $3,000. Sometimes the cheapest answer is the redirect of a single downspout. See [pop-up drain emitters](/drainage-solutions/pop-up-drain-emitters) and [downspout placement for Orlando yards](/blog/downspout-placement-orlando-yards)."
+          "Extensions typically run $75 to $450 across a house. Pop-up emitters run $200 to $750 each. Buried drains run $500 to $2,500. Sometimes the cheapest answer is the redirect of a single downspout. See [pop-up drain emitters](/drainage-solutions/pop-up-drain-emitters) and [downspout placement for Orlando yards](/blog/downspout-placement-orlando-yards)."
         ]
       }
     ],
@@ -7004,7 +7004,7 @@ export const blogPosts: BlogPost[] = [
         "id": "does-it-pay-off",
         "heading": "Does It Pay Off?",
         "paragraphs": [
-          "A barrel and install typically run $150 to $700, and irrigation savings are modest for most yards. The value is more in convenience, plants that like rainwater, and a little less runoff. If your real problem is yard flooding, a barrel will not solve it. See [downspout drainage and yard flooding in Orlando](/blog/downspout-drainage-flooding-yard-orlando)."
+          "A barrel and install typically run $125 to $600, and irrigation savings are modest for most yards. The value is more in convenience, plants that like rainwater, and a little less runoff. If your real problem is yard flooding, a barrel will not solve it. See [downspout drainage and yard flooding in Orlando](/blog/downspout-drainage-flooding-yard-orlando)."
         ]
       },
       {
@@ -7072,7 +7072,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "question": "How much does a rain barrel installation cost?",
-        "answer": "Typically $150 to $700 depending on barrel size, stand, and diverter."
+        "answer": "Typically $125 to $600 depending on barrel size, stand, and diverter."
       }
     ],
     "relatedPosts": [
@@ -7327,7 +7327,7 @@ export const blogPosts: BlogPost[] = [
         "id": "budgeting",
         "heading": "Budgeting",
         "paragraphs": [
-          "Commercial cleaning typically runs $300 to $3,000 per visit, and repairs $400 to $6,000, depending on size and height. Recurring contracts usually cost less per visit. See [gutter cleaning cost in Orlando](/blog/gutter-cleaning-cost-orlando) for residential comparisons."
+          "Commercial cleaning typically runs $250 to $2,500 per visit, and repairs $350 to $5,000, depending on size and height. Recurring contracts usually cost less per visit. See [gutter cleaning cost in Orlando](/blog/gutter-cleaning-cost-orlando) for residential comparisons."
         ]
       },
       {
@@ -7401,7 +7401,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "question": "How much does commercial gutter cleaning cost?",
-        "answer": "Typically $300 to $3,000 per visit depending on size and height."
+        "answer": "Typically $250 to $2,500 per visit depending on size and height."
       }
     ],
     "relatedPosts": [
@@ -7459,7 +7459,7 @@ export const blogPosts: BlogPost[] = [
         "id": "costs-you-can-expect",
         "heading": "Costs You Can Expect",
         "paragraphs": [
-          "For a typical Winter Park home, standard seamless aluminum runs about $1,200 to $4,500, and large or complex homes sit at the high end. Copper and half-round systems run higher, from about $4,500 to $16,000 for copper. Tile roofs add cost. Compare with [gutter installation cost in Orlando](/blog/gutter-installation-cost-orlando) and see [gutter installation in Winter Park](/gutter-installation/new-gutter-installation/winter-park-fl) for the service."
+          "For a typical Winter Park home, standard seamless aluminum runs about $900 to $3,200, and large or complex homes sit at the high end. Copper and half-round systems run higher, from about $4,000 to $14,000 for copper. Tile roofs add cost. Compare with [gutter installation cost in Orlando](/blog/gutter-installation-cost-orlando) and see [gutter installation in Winter Park](/gutter-installation/new-gutter-installation/winter-park-fl) for the service."
         ]
       },
       {
@@ -7517,9 +7517,9 @@ export const blogPosts: BlogPost[] = [
           "These illustrate how scope changes cost, and are not quotes."
         ],
         "bullets": [
-          "**A cottage near Park Avenue, 140 feet, five-inch aluminum on repaired fascia:** in the lower part of $1,200 to $4,500, plus fascia work at $6 to $20 per foot for wood.",
+          "**A cottage near Park Avenue, 140 feet, five-inch aluminum on repaired fascia:** in the lower part of $900 to $3,200, plus fascia work at $6 to $20 per foot for wood.",
           "**A lakefront home in Interlachen, 280 feet, six-inch half-round aluminum:** above the standard range.",
-          "**A large estate with copper half-round and custom leader heads:** into the copper range of $4,500 to $16,000 or more."
+          "**A large estate with copper half-round and custom leader heads:** into the copper range of $4,000 to $14,000 or more."
         ]
       },
       {
@@ -7533,7 +7533,7 @@ export const blogPosts: BlogPost[] = [
     "faqs": [
       {
         "question": "How much does gutter installation cost in Winter Park?",
-        "answer": "Typically $1,200 to $4,500 for standard aluminum, more for large homes, copper, or tile roofs."
+        "answer": "Typically $900 to $3,200 for standard aluminum, more for large homes, copper, or tile roofs."
       },
       {
         "question": "Are gutter guards worth it in Winter Park?",
@@ -7605,7 +7605,7 @@ export const blogPosts: BlogPost[] = [
         "id": "costs",
         "heading": "Costs",
         "paragraphs": [
-          "Whole-house gutters in the Kissimmee area typically run $1,200 to $4,500. Tile roofs typically run $1,800 to $6,000. Repairs run $150 to $900, and storm repairs $250 to $2,500. See [gutter installation cost in Orlando](/blog/gutter-installation-cost-orlando), which applies across Central Florida, and [gutter repair in Kissimmee](/gutter-repair/storm-damage-gutter-repair/kissimmee-fl)."
+          "Whole-house gutters in the Kissimmee area typically run $900 to $3,200. Tile roofs typically run $1,500 to $4,800. Repairs run $125 to $600, and storm repairs $250 to $2,000. See [gutter installation cost in Orlando](/blog/gutter-installation-cost-orlando), which applies across Central Florida, and [gutter repair in Kissimmee](/gutter-repair/storm-damage-gutter-repair/kissimmee-fl)."
         ]
       },
       {
@@ -7663,8 +7663,8 @@ export const blogPosts: BlogPost[] = [
           "These illustrate scope, and are not quotes."
         ],
         "bullets": [
-          "**A 1990s two-story home in Buenaventura Lakes, 200 feet, five-inch aluminum, HOA approved:** in the middle of the $1,200 to $4,500 range.",
-          "**A tile-roof vacation home in an HOA community near the resort area, 260 feet, six-inch gutters:** in the tile range of $1,800 to $6,000.",
+          "**A 1990s two-story home in Buenaventura Lakes, 200 feet, five-inch aluminum, HOA approved:** in the middle of the $900 to $3,200 range.",
+          "**A tile-roof vacation home in an HOA community near the resort area, 260 feet, six-inch gutters:** in the tile range of $1,500 to $4,800.",
           "**A downtown Kissimmee older home with wood fascia:** fascia repair plus gutters, in the middle to upper part."
         ]
       },
@@ -7687,7 +7687,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "question": "How much do gutters cost in Kissimmee?",
-        "answer": "Typically $1,200 to $4,500 for a whole house, and more on tile roofs."
+        "answer": "Typically $900 to $3,200 for a whole house, and more on tile roofs."
       },
       {
         "question": "Do Kissimmee tile roofs need special gutters?",
@@ -7737,7 +7737,7 @@ export const blogPosts: BlogPost[] = [
         "id": "materials-and-style",
         "heading": "Materials and Style",
         "paragraphs": [
-          "Many Windermere owners choose copper, half-round, or custom-formed gutters to match the architecture. Copper lasts 50 years or more and is priced at about $4,500 to $16,000 for a whole house. Half-round carries less water than K-style at the same width, so size up. See [copper gutter cost in Florida](/blog/copper-gutter-cost-florida) and [seamless copper gutters in Windermere](/seamless-gutters/seamless-copper-gutters/windermere-fl)."
+          "Many Windermere owners choose copper, half-round, or custom-formed gutters to match the architecture. Copper lasts 50 years or more and is priced at about $4,000 to $14,000 for a whole house. Half-round carries less water than K-style at the same width, so size up. See [copper gutter cost in Florida](/blog/copper-gutter-cost-florida) and [seamless copper gutters in Windermere](/seamless-gutters/seamless-copper-gutters/windermere-fl)."
         ]
       },
       {
@@ -7765,7 +7765,7 @@ export const blogPosts: BlogPost[] = [
         "id": "costs",
         "heading": "Costs",
         "paragraphs": [
-          "Standard aluminum on a large home runs toward the top of $1,200 to $4,500, and tile roofs $1,800 to $6,000. Copper and custom work cost more. Fascia repair is a separate line. See gutter installation cost in Orlando."
+          "Standard aluminum on a large home runs toward the top of $900 to $3,200, and tile roofs $1,500 to $4,800. Copper and custom work cost more. Fascia repair is a separate line. See gutter installation cost in Orlando."
         ]
       },
       {
@@ -7830,7 +7830,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "question": "How much does copper cost in Windermere?",
-        "answer": "Roughly $4,500 to $16,000 for a whole house, depending on size and profile."
+        "answer": "Roughly $4,000 to $14,000 for a whole house, depending on size and profile."
       },
       {
         "question": "Do I need approval for gutters in Isleworth or another gated community?",
@@ -7898,7 +7898,7 @@ export const blogPosts: BlogPost[] = [
         "id": "costs",
         "heading": "Costs",
         "paragraphs": [
-          "Standard seamless aluminum typically runs $1,200 to $4,500 for a whole house, with larger two-story homes toward the top. Tile roofs typically run $1,800 to $6,000. See [gutter installation cost in Orlando](/blog/gutter-installation-cost-orlando) and gutter installation in Lake Mary."
+          "Standard seamless aluminum typically runs $900 to $3,200 for a whole house, with larger two-story homes toward the top. Tile roofs typically run $1,500 to $4,800. See [gutter installation cost in Orlando](/blog/gutter-installation-cost-orlando) and gutter installation in Lake Mary."
         ]
       },
       {
@@ -7957,8 +7957,8 @@ export const blogPosts: BlogPost[] = [
           "These illustrate scope, and are not quotes."
         ],
         "bullets": [
-          "**A 2000s two-story home in Timacuan, 220 feet, six-inch aluminum, HOA approved:** in the middle to upper part of the $1,200 to $4,500 range.",
-          "**A Heathrow home with a tile roof and cut-up roofline:** in the tile range of $1,800 to $6,000.",
+          "**A 2000s two-story home in Timacuan, 220 feet, six-inch aluminum, HOA approved:** in the middle to upper part of the $900 to $3,200 range.",
+          "**A Heathrow home with a tile roof and cut-up roofline:** in the tile range of $1,500 to $4,800.",
           "**A townhome with association-managed gutters:** handled by the association, so confirm who pays."
         ]
       },
@@ -7981,7 +7981,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "question": "How much does it cost to install gutters in Lake Mary?",
-        "answer": "Typically $1,200 to $4,500 for standard aluminum, more for large or tile-roof homes."
+        "answer": "Typically $900 to $3,200 for standard aluminum, more for large or tile-roof homes."
       },
       {
         "question": "Are gutter guards a good idea on two-story homes?",
@@ -8045,7 +8045,7 @@ export const blogPosts: BlogPost[] = [
         "id": "costs",
         "heading": "Costs",
         "paragraphs": [
-          "Whole-house gutters typically run $1,200 to $4,500 in the Apopka area, and replacement $1,500 to $5,500 with tear-off. Sagging repairs run $200 to $900. See [gutter installation cost in Orlando](/blog/gutter-installation-cost-orlando)."
+          "Whole-house gutters typically run $900 to $3,200 in the Apopka area, and replacement $1,100 to $3,800 with tear-off. Sagging repairs run $150 to $600. See [gutter installation cost in Orlando](/blog/gutter-installation-cost-orlando)."
         ]
       },
       {
@@ -8101,9 +8101,9 @@ export const blogPosts: BlogPost[] = [
           "These illustrate scope, and are not quotes."
         ],
         "bullets": [
-          "**A new build with no gutters, 180 feet, five-inch aluminum:** in the lower to middle part of $1,200 to $4,500.",
-          "**A 2000s home with thin gutters, replaced with .032-inch aluminum on hidden hangers:** in the $1,500 to $5,500 replacement range.",
-          "**An older home under oaks with guards added:** the gutter cost plus $1,000 to $4,500 for guards."
+          "**A new build with no gutters, 180 feet, five-inch aluminum:** in the lower to middle part of $900 to $3,200.",
+          "**A 2000s home with thin gutters, replaced with .032-inch aluminum on hidden hangers:** in the $1,100 to $3,800 replacement range.",
+          "**An older home under oaks with guards added:** the gutter cost plus $800 to $3,500 for guards."
         ]
       },
       {
@@ -8121,7 +8121,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "question": "How much does gutter installation cost in Apopka?",
-        "answer": "Typically $1,200 to $4,500 for a whole house."
+        "answer": "Typically $900 to $3,200 for a whole house."
       },
       {
         "question": "Should I replace builder-grade gutters?",
@@ -8196,14 +8196,14 @@ export const blogPosts: BlogPost[] = [
         "id": "cleaning-costs",
         "heading": "Cleaning Costs",
         "paragraphs": [
-          "Cleaning a two-story house under heavy cover typically runs toward the top of $120 to $450 per visit. See [gutter cleaning cost in Orlando](/blog/gutter-cleaning-cost-orlando) and [gutter cleaning in Oviedo](/gutter-cleaning/gutter-cleaning/oviedo-fl)."
+          "Cleaning a two-story house under heavy cover typically runs toward the top of $120 to $350 per visit. See [gutter cleaning cost in Orlando](/blog/gutter-cleaning-cost-orlando) and [gutter cleaning in Oviedo](/gutter-cleaning/gutter-cleaning/oviedo-fl)."
         ]
       },
       {
         "id": "installation-costs",
         "heading": "Installation Costs",
         "paragraphs": [
-          "Whole-house gutters typically run $1,200 to $4,500 in the Oviedo area, and two-story homes fall toward the upper half. Guards add $1,000 to $4,500. See gutter installation cost in Orlando."
+          "Whole-house gutters typically run $900 to $3,200 in the Oviedo area, and two-story homes fall toward the upper half. Guards add $800 to $3,500. See gutter installation cost in Orlando."
         ]
       },
       {
@@ -8255,8 +8255,8 @@ export const blogPosts: BlogPost[] = [
           "These illustrate scope, and are not quotes."
         ],
         "bullets": [
-          "**A 1990s two-story home in Twin Rivers, 220 feet, five-inch aluminum:** in the middle of $1,200 to $4,500.",
-          "**The same home with micro-mesh guards added:** add $1,800 to $5,500 for the guards.",
+          "**A 1990s two-story home in Twin Rivers, 220 feet, five-inch aluminum:** in the middle of $900 to $3,200.",
+          "**The same home with micro-mesh guards added:** add $1,500 to $4,500 for the guards.",
           "**A larger home in Alafaya Woods with six-inch gutters and more downspouts:** toward the upper end."
         ]
       },
@@ -8271,7 +8271,7 @@ export const blogPosts: BlogPost[] = [
     "faqs": [
       {
         "question": "How much does gutter installation cost in Oviedo?",
-        "answer": "Typically $1,200 to $4,500 for a whole house, with two-story homes toward the upper half."
+        "answer": "Typically $900 to $3,200 for a whole house, with two-story homes toward the upper half."
       },
       {
         "question": "Are gutter guards worth it in Oviedo?",
@@ -8355,7 +8355,7 @@ export const blogPosts: BlogPost[] = [
         "id": "costs",
         "heading": "Costs",
         "paragraphs": [
-          "Whole-house gutters typically run $1,200 to $4,500. Tile roofs typically run $1,800 to $6,000. Fascia repair adds $6 to $20 per foot for wood. See [gutter installation cost in Orlando](/blog/gutter-installation-cost-orlando) and [gutter installation in Winter Garden](/gutter-installation/new-gutter-installation/winter-garden-fl)."
+          "Whole-house gutters typically run $900 to $3,200. Tile roofs typically run $1,500 to $4,800. Fascia repair adds $6 to $20 per foot for wood. See [gutter installation cost in Orlando](/blog/gutter-installation-cost-orlando) and [gutter installation in Winter Garden](/gutter-installation/new-gutter-installation/winter-garden-fl)."
         ]
       },
       {
@@ -8408,7 +8408,7 @@ export const blogPosts: BlogPost[] = [
         ],
         "bullets": [
           "**A restored bungalow near downtown, 130 feet, five-inch aluminum, fascia repair:** lower part of the range plus wood repair.",
-          "**A Horizon West tile-roof home, 260 feet, six-inch on brackets, seven downspouts:** in the tile range of $1,800 to $6,000.",
+          "**A Horizon West tile-roof home, 260 feet, six-inch on brackets, seven downspouts:** in the tile range of $1,500 to $4,800.",
           "**A new build in Stoneybrook West with no gutters:** in the standard range, after a first-season drainage check."
         ]
       },
@@ -8431,7 +8431,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "question": "How much do gutters cost in Winter Garden?",
-        "answer": "Typically $1,200 to $4,500, and $1,800 to $6,000 on tile."
+        "answer": "Typically $900 to $3,200, and $1,500 to $4,800 on tile."
       },
       {
         "question": "Should I add gutters right after buying a new build?",
@@ -8500,7 +8500,7 @@ export const blogPosts: BlogPost[] = [
         "id": "costs",
         "heading": "Costs",
         "paragraphs": [
-          "Whole-house gutters in the Clermont area typically run $1,200 to $4,500. Downspout extensions run $100 to $600 across a house, and buried drains $600 to $3,000. See [gutter installation in Clermont](/gutter-installation/new-gutter-installation/clermont-fl)."
+          "Whole-house gutters in the Clermont area typically run $900 to $3,200. Downspout extensions run $75 to $450 across a house, and buried drains $500 to $2,500. See [gutter installation in Clermont](/gutter-installation/new-gutter-installation/clermont-fl)."
         ]
       },
       {
@@ -8552,8 +8552,8 @@ export const blogPosts: BlogPost[] = [
           "These illustrate scope, and are not quotes."
         ],
         "bullets": [
-          "**A Kings Ridge home on a gentle slope, 200 feet, five-inch aluminum, extensions at each downspout:** in the middle of $1,200 to $4,500 plus $100 to $600 for extensions.",
-          "**A steeper lot with buried drainage to a stable outlet:** gutters plus $600 to $3,000 for the drain.",
+          "**A Kings Ridge home on a gentle slope, 200 feet, five-inch aluminum, extensions at each downspout:** in the middle of $900 to $3,200 plus $75 to $450 for extensions.",
+          "**A steeper lot with buried drainage to a stable outlet:** gutters plus $500 to $2,500 for the drain.",
           "**A lakefront home with a large roof, six-inch gutters:** in the upper half of the range."
         ]
       },
@@ -8576,7 +8576,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "question": "How much does gutter installation cost in Clermont?",
-        "answer": "Typically $1,200 to $4,500 for a whole house."
+        "answer": "Typically $900 to $3,200 for a whole house."
       },
       {
         "question": "Should I use six-inch gutters on a hilly lot?",
@@ -8660,7 +8660,7 @@ export const blogPosts: BlogPost[] = [
         "id": "costs",
         "heading": "Costs",
         "paragraphs": [
-          "Standard hung gutters typically run $1,200 to $4,500, half-round and copper more, and box gutter repairs $400 to $3,500. See [gutter installation in Sanford](/gutter-installation/new-gutter-installation/sanford-fl)."
+          "Standard hung gutters typically run $900 to $3,200, half-round and copper more, and box gutter repairs $400 to $3,000. See [gutter installation in Sanford](/gutter-installation/new-gutter-installation/sanford-fl)."
         ]
       },
       {
@@ -8699,8 +8699,8 @@ export const blogPosts: BlogPost[] = [
         ],
         "bullets": [
           "**A 1920s home with hung gutters and soft fascia, 150 feet:** standard gutter cost plus wood repair at $6 to $20 per foot.",
-          "**A historic home with built-in gutters that leak:** box gutter repair, typically $400 to $3,500 depending on extent.",
-          "**A home replacing failed aluminum with half-round copper:** in the copper range of $4,500 to $16,000."
+          "**A historic home with built-in gutters that leak:** box gutter repair, typically $400 to $3,000 depending on extent.",
+          "**A home replacing failed aluminum with half-round copper:** in the copper range of $4,000 to $14,000."
         ]
       },
       {
@@ -8726,7 +8726,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "question": "How much does box gutter repair cost?",
-        "answer": "Typically $400 to $3,500 depending on extent."
+        "answer": "Typically $400 to $3,000 depending on extent."
       }
     ],
     "relatedPosts": [
@@ -8800,7 +8800,7 @@ export const blogPosts: BlogPost[] = [
         "id": "costs",
         "heading": "Costs",
         "paragraphs": [
-          "Replacement in the Altamonte Springs area typically runs $1,500 to $5,500 including tear-off. Sagging repairs run $200 to $900. See [gutter installation cost in Orlando](/blog/gutter-installation-cost-orlando)."
+          "Replacement in the Altamonte Springs area typically runs $1,100 to $3,800 including tear-off. Sagging repairs run $150 to $600. See [gutter installation cost in Orlando](/blog/gutter-installation-cost-orlando)."
         ]
       },
       {
@@ -8849,7 +8849,7 @@ export const blogPosts: BlogPost[] = [
           "These illustrate scope, and are not quotes."
         ],
         "bullets": [
-          "**A 1980s single-story home in Eastmonte, 150 feet, sectional replaced with seamless:** in the lower part of $1,500 to $5,500.",
+          "**A 1980s single-story home in Eastmonte, 150 feet, sectional replaced with seamless:** in the lower part of $1,100 to $3,800.",
           "**A two-story home in Spring Oaks with fascia repair on the rear elevation:** in the middle of the range.",
           "**A townhome community with shared downspouts:** handled by the association."
         ]
@@ -8869,7 +8869,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         "question": "How much does gutter replacement cost in Altamonte Springs?",
-        "answer": "Typically $1,500 to $5,500 including tear-off."
+        "answer": "Typically $1,100 to $3,800 including tear-off."
       },
       {
         "question": "Do I need to check the fascia before replacing gutters?",

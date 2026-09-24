@@ -19,6 +19,8 @@ export function Footer() {
               </a>
             </p>
             <p className="text-muted-light-text">{site.hours[0].days}: {site.hours[0].time}</p>
+            <p className="text-muted-light-text">{site.hours[1].days}: {site.hours[1].time}</p>
+            <p className="text-muted-light-text">Online requests: 24/7</p>
           </div>
         </div>
 

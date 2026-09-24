@@ -26,8 +26,8 @@ Quote and callback forms post to webhooks configured at build time. See `.env.ex
 
 ## Before launch
 
-- [ ] Replace every PLACEHOLDER in `content/site.ts` (URL, email, hours, service area)
-- [ ] Confirm prices, timelines, and warranties in `content/categories.ts` against the real installer network (see `references/stats.md`)
+- [x] URL, email, and hours in `content/site.ts` are set
+- [ ] Revisit prices in `content/categories.ts` once the installer network gives real numbers (current ranges come from competitor pricing, see `references/stats.md`)
 - [ ] Set the two form webhook URLs in Vercel environment variables
 - [ ] Add real testimonials to `content/testimonials.ts`; add review schema only once reviews are real
 - [ ] Add a real logo (the header currently uses a text wordmark)

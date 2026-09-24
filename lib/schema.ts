@@ -58,6 +58,19 @@ export function organizationSchema() {
       "@type": "AdministrativeArea",
       name: site.serviceArea,
     },
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "customer service",
+      email: site.email,
+      areaServed: "US-FL",
+      availableLanguage: "English",
+      hoursAvailable: site.openingHours.map((h) => ({
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: h.days,
+        opens: h.opens,
+        closes: h.closes,
+      })),
+    },
   };
 }
 

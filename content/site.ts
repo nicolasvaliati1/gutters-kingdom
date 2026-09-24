@@ -7,11 +7,10 @@
 // through the quote form or the callback request, and rating/review numbers
 // stay out of the site (and out of structured data) until they are real.
 //
-// TODO before launch — every value below marked PLACEHOLDER must be
-// replaced with the real business info:
+// Notes on the values below:
 //   - url: production domain (gutterskingdom.com), connected in Vercel
-//   - email: PLACEHOLDER, not a monitored inbox yet
-//   - hours: PLACEHOLDER
+//   - email: confirmed by the owner
+//   - hours: confirmed by the owner (staffed Mon-Fri 8-6, Sat 8-12; online requests 24/7)
 //   - serviceArea: Greater Orlando (cities within about 30 miles of
 //     downtown Orlando, per cities.ts)
 //   - indexable: true lets search engines index the site. Set false for a
@@ -26,9 +25,16 @@ export const site = {
   email: "hello@gutterskingdom.com",
   serviceArea: "Greater Orlando",
   hours: [
-    { days: "Monday – Friday", time: "7:00 AM – 6:00 PM" },
-    { days: "Saturday", time: "8:00 AM – 2:00 PM" },
+    { days: "Monday – Friday", time: "8:00 AM – 6:00 PM" },
+    { days: "Saturday", time: "8:00 AM – 12:00 PM" },
     { days: "Sunday", time: "Closed" },
+    { days: "Online quote requests", time: "24 hours a day, 7 days a week" },
+  ],
+  // Structured data only lists the hours a person answers the phone.
+  // The 24/7 line above is for online requests, so it stays out of schema.
+  openingHours: [
+    { days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], opens: "08:00", closes: "18:00" },
+    { days: ["Saturday"], opens: "08:00", closes: "12:00" },
   ],
   author: {
     name: "Gutters Kingdom Team",

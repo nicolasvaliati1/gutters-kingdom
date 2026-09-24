@@ -2,52 +2,74 @@
 
 Canonical numbers. Pull from here, never round, never invent a new figure for a blog post or service page. Source: `content/site.ts` and `content/categories.ts`.
 
-**Every number below is a PLACEHOLDER** based on typical US residential gutter work. Gutters Kingdom has no completed jobs, reviews, or years in business to report yet, so none are listed and none should be written into copy. Confirm each figure against the real installer network before publishing, and flag it to the user if a piece of content leans heavily on one.
+**Prices are market estimates, not quotes.** They were set in September 2026 from published Orlando and Florida competitor and cost-guide figures (see "Competitor benchmarks" below). Timeframes and warranties are the business's own terms. Gutters Kingdom has no completed jobs, reviews, or years in business to report yet, so none are listed and none should be written into copy. Revisit the ranges once the installer network provides real numbers.
 
 ## Company
 
 - Years in business: not stated (do not invent)
 - Projects completed: not stated
 - Review count / rating: not stated (no `aggregateRating` in schema until real reviews exist)
-- Service area (per `site.ts`): Greater Orlando, cities within about 30 miles of downtown Orlando, FL
+- Domain: https://gutterskingdom.com
+- Email: hello@gutterskingdom.com
+- Service area: Greater Orlando, cities within about 30 miles of downtown Orlando, FL
 - Cities (per `cities.ts`): Orlando, Winter Park, Kissimmee, Altamonte Springs, Apopka, Oviedo, Winter Garden, Ocoee, Sanford, Lake Mary, Clermont, Windermere
 - Address / phone: none shown publicly
-- Email (`site.ts`): placeholder, not a monitored inbox
+- Hours: Monday to Friday 8:00 AM to 6:00 PM, Saturday 8:00 AM to 12:00 PM, Sunday closed. Online quote requests are accepted 24 hours a day, 7 days a week. Structured data lists only the staffed hours.
 
-## Pricing & timelines by service (from `content/categories.ts` — PLACEHOLDER pending real figures)
+## Pricing & timelines by service (from `content/categories.ts`)
 
 | Service | Cost range | Timeframe | Warranty |
 |---|---|---|---|
-| New Gutter Installation | $1,200 – $4,500 | 1–2 Days | 5-Year |
-| Gutter Replacement | $1,500 – $5,500 | 1–2 Days | 5-Year |
-| Tile Roof Gutter Installation | $1,800 – $6,000 | 1–3 Days | 5-Year |
-| Seamless Aluminum Gutters | $1,200 – $4,000 | 1–2 Days | 5-Year |
-| Seamless Copper Gutters | $4,500 – $16,000 | 2–4 Days | 5-Year |
-| 6-Inch Oversized Gutters | $1,600 – $5,500 | 1–2 Days | 5-Year |
-| Half-Round Gutters | $2,200 – $9,000 | 1–3 Days | 5-Year |
-| Box & Built-In Gutter Repair | $400 – $3,500 | 1–3 Days | 1-Year |
-| Rain Chains | $150 – $900 | Half Day | 1-Year |
-| Gutter Leak Repair | $150 – $600 | Half Day | 1-Year |
-| Sagging & Pulled-Away Gutter Repair | $200 – $900 | Half Day – 1 Day | 1-Year |
-| Storm Damage Gutter Repair | $250 – $2,500 | Half Day – 2 Days | 1-Year |
-| Gutter Cleaning | $120 – $450 | 1–3 Hours | 30-Day |
-| Gutter Inspection | $100 – $250 | 1–2 Hours | 30-Day |
-| Gutter Exterior Cleaning & Brightening | $120 – $450 | 1–3 Hours | 30-Day |
-| Downspout Installation | $200 – $1,200 | Half Day – 1 Day | 2-Year |
-| Downspout Repair & Replacement | $120 – $700 | Half Day | 1-Year |
-| Downspout Extensions | $100 – $600 | Half Day | 1-Year |
-| Gutter Guard Installation | $1,000 – $4,500 | 1 Day | 5-Year |
-| Micro-Mesh Gutter Guards | $1,800 – $5,500 | 1 Day | 5-Year |
-| Gutter Guard Repair & Replacement | $150 – $2,500 | Half Day – 1 Day | 1-Year |
-| Underground Downspout Drainage | $600 – $3,000 | 1–2 Days | 2-Year |
-| Pop-Up Drain Emitters | $250 – $900 | Half Day – 1 Day | 2-Year |
-| Rain Barrel Installation | $150 – $700 | Half Day | 1-Year |
-| Fascia Board Repair & Replacement | $400 – $2,500 | 1–2 Days | 2-Year |
-| Soffit Repair & Replacement | $350 – $2,800 | 1–2 Days | 2-Year |
-| Drip Edge Installation | $300 – $1,800 | 1 Day | 2-Year |
-| Commercial Gutter Installation | $4,000 – $30,000 | 3–7 Days | 5-Year |
-| Commercial Gutter Cleaning | $300 – $3,000 | Half Day – 2 Days | 30-Day |
-| Commercial Gutter Repair | $400 – $6,000 | 1–3 Days | 1-Year |
+| New Gutter Installation | $900 – $3,200 | 1–2 Days | 5-Year |
+| Gutter Replacement | $1,100 – $3,800 | 1–2 Days | 5-Year |
+| Tile Roof Gutter Installation | $1,500 – $4,800 | 1–3 Days | 5-Year |
+| Seamless Aluminum Gutters | $900 – $3,000 | 1–2 Days | 5-Year |
+| Seamless Copper Gutters | $4,000 – $14,000 | 2–4 Days | 5-Year |
+| 6-Inch Oversized Gutters | $1,200 – $4,200 | 1–2 Days | 5-Year |
+| Half-Round Gutters | $1,800 – $8,000 | 1–3 Days | 5-Year |
+| Box & Built-In Gutter Repair | $400 – $3,000 | 1–3 Days | 1-Year |
+| Rain Chains | $150 – $750 | Half Day | 1-Year |
+| Gutter Leak Repair | $125 – $400 | Half Day | 1-Year |
+| Sagging & Pulled-Away Gutter Repair | $150 – $600 | Half Day – 1 Day | 1-Year |
+| Storm Damage Gutter Repair | $250 – $2,000 | Half Day – 2 Days | 1-Year |
+| Gutter Cleaning | $120 – $350 | 1–3 Hours | 30-Day |
+| Gutter Inspection | $75 – $200 | 1–2 Hours | 30-Day |
+| Gutter Exterior Cleaning & Brightening | $120 – $350 | 1–3 Hours | 30-Day |
+| Downspout Installation | $120 – $800 | Half Day – 1 Day | 2-Year |
+| Downspout Repair & Replacement | $75 – $450 | Half Day | 1-Year |
+| Downspout Extensions | $75 – $450 | Half Day | 1-Year |
+| Gutter Guard Installation | $800 – $3,500 | 1 Day | 5-Year |
+| Micro-Mesh Gutter Guards | $1,500 – $4,500 | 1 Day | 5-Year |
+| Gutter Guard Repair & Replacement | $125 – $2,000 | Half Day – 1 Day | 1-Year |
+| Underground Downspout Drainage | $500 – $2,500 | 1–2 Days | 2-Year |
+| Pop-Up Drain Emitters | $200 – $750 | Half Day – 1 Day | 2-Year |
+| Rain Barrel Installation | $125 – $600 | Half Day | 1-Year |
+| Fascia Board Repair & Replacement | $350 – $2,200 | 1–2 Days | 2-Year |
+| Soffit Repair & Replacement | $350 – $2,500 | 1–2 Days | 2-Year |
+| Drip Edge Installation | $250 – $1,500 | 1 Day | 2-Year |
+| Commercial Gutter Installation | $3,500 – $25,000 | 3–7 Days | 5-Year |
+| Commercial Gutter Cleaning | $250 – $2,500 | Half Day – 2 Days | 30-Day |
+| Commercial Gutter Repair | $350 – $5,000 | 1–3 Days | 1-Year |
+
+## Per-foot benchmarks used in copy
+
+- Seamless aluminum, 5-inch: about $6 to $12 per linear foot installed
+- 6-inch: about 20 to 30 percent above 5-inch
+- Copper: about $25 to $50 per linear foot (half-round copper runs higher)
+- Gutter guards: about $4 to $15 per linear foot; micro-mesh about $7 to $20
+- Wood fascia repair: about $6 to $20 per linear foot
+- Tile roofs: typically 20 to 40 percent above the same house in shingle
+
+## Competitor benchmarks (September 2026 search of published Orlando/Florida pricing)
+
+- Installation in Orlando: $6 to $12 per foot; whole-house totals commonly $1,200 to $3,000 for a single story, $1,500 to $3,000 for a standard Florida home; multi-story 25 to 40 percent higher
+- 6-inch gutters: $8 to $14 per foot
+- Gutter guards: $3 to $9 per foot on some sites, $5 to $15 on others, micro-mesh at the high end
+- Cleaning in Orlando: average about $171, most jobs $119 to $230, up to about $408 for large two-story jobs
+- Repairs: $100 to $450 typical; leaks $100 to $225; sagging $75 to $300; some companies have $375 minimums
+- Downspouts: $30 to $75 each
+- Soffit and fascia: $6 to $20 per linear foot in Orlando
+- Copper half-round: $35 to $74 per foot installed
 
 ## Technical claims already used on-site
 
