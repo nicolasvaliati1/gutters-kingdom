@@ -14,11 +14,11 @@
 //   - hours: PLACEHOLDER
 //   - serviceArea: Greater Orlando (cities within about 30 miles of
 //     downtown Orlando, per cities.ts)
-//   - indexable: false keeps the site out of search engines (noindex meta
-//     tag + Disallow-all robots.txt). Flip to true at launch, once the real
-//     domain is connected and the placeholders above are replaced.
+//   - indexable: true lets search engines index the site. Set false for a
+//     noindex meta tag + Disallow-all robots.txt (e.g. to take it offline
+//     while the placeholders above are being replaced).
 export const site = {
-  indexable: false,
+  indexable: true,
   name: "Gutters Kingdom",
   shortName: "Gutters Kingdom",
   tagline: "Gutter Installation & Repair",

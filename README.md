@@ -31,4 +31,4 @@ Quote and callback forms post to webhooks configured at build time. See `.env.ex
 - [ ] Set the two form webhook URLs in Vercel environment variables
 - [ ] Add real testimonials to `content/testimonials.ts`; add review schema only once reviews are real
 - [ ] Add a real logo (the header currently uses a text wordmark)
-- [ ] Set `indexable: true` in `content/site.ts` (currently `false`: noindex + Disallow-all robots.txt)
+- [x] `indexable: true` in `content/site.ts` (site is live and indexable)
