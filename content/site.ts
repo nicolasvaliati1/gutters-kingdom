@@ -9,7 +9,7 @@
 //
 // TODO before launch — every value below marked PLACEHOLDER must be
 // replaced with the real business info:
-//   - url: PLACEHOLDER until the production domain is connected in Vercel
+//   - url: production domain (gutterskingdom.com), connected in Vercel
 //   - email: PLACEHOLDER, not a monitored inbox yet
 //   - hours: PLACEHOLDER
 //   - serviceArea: Greater Orlando (cities within about 30 miles of
@@ -22,7 +22,7 @@ export const site = {
   name: "Gutters Kingdom",
   shortName: "Gutters Kingdom",
   tagline: "Gutter Installation & Repair",
-  url: "https://gutters-kingdom.vercel.app",
+  url: "https://gutterskingdom.com",
   email: "hello@gutterskingdom.com",
   serviceArea: "Greater Orlando",
   hours: [
