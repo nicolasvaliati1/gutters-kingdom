@@ -18,8 +18,8 @@ const THUMB = [640, 480];
 
 // { file, id, size }
 const jobs = [
-  { file: "category-specialty-gutters-hero.webp", id: 17082068, size: HERO },
-  { file: "category-specialty-gutters-thumb.webp", id: 39431967, size: THUMB },
+  { file: "category-specialty-gutters-hero.webp", id: 15504477, size: HERO },
+  { file: "category-specialty-gutters-thumb.webp", id: 15504477, size: THUMB },
   { file: "category-seamless-gutters-hero.webp", id: 15662219, size: HERO },
   { file: "category-seamless-gutters-thumb.webp", id: 15662219, size: THUMB },
   { file: "category-gutter-repair-hero.webp", id: 37677476, size: HERO },

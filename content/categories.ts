@@ -558,7 +558,7 @@ export const categories: Category[] = [
     ],
     image: "/images/category-specialty-gutters-hero.webp",
     thumbImage: "/images/category-specialty-gutters-thumb.webp",
-    imageAlt: "Stone building with a clay tile roof and rounded copper-toned gutters",
+    imageAlt: "Two-story stucco homes with tile roofs and gutters in a Florida suburb",
     faqs: [
       {
         question: "Are half-round gutters worth the extra cost?",

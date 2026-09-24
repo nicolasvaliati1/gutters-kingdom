@@ -80,7 +80,7 @@ export default async function BlogPostPage({ params }: PageProps) {
     headline: post.title,
     description: post.metaDescription,
     url: path,
-    image: post.image,
+    image: `${site.url}${post.image}`,
     datePublished: post.date,
     dateModified: post.updatedDate ?? post.date,
     authorName: site.author.name,
@@ -194,7 +194,7 @@ export default async function BlogPostPage({ params }: PageProps) {
         <section id="faq" className="mt-12 max-w-2xl scroll-mt-24 border-t border-border pt-8">
           <p className="eyebrow text-xs text-accent-dark">Questions Answered</p>
           <h2 className="font-display mt-2 text-2xl font-medium text-ink sm:text-3xl">
-            {post.title.split(":")[0]}, Answered
+            FAQ: {post.seoTitle}
           </h2>
           <FaqAccordion faqs={post.faqs} />
         </section>
