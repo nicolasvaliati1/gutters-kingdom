@@ -342,9 +342,9 @@ export const categories: Category[] = [
       "Seamless gutters are formed on site from a coil of metal by a roll-forming machine, then cut to the exact length of each run. A traditional sectional gutter comes in ten-foot pieces joined every ten feet, and every joint is a place to leak. A seamless run has seams only at the corners and at the downspout outlets.",
       "That's the whole advantage, and it's a real one: fewer seams means fewer leaks and fewer spots for debris to catch. The trade-off is that seamless gutters need a roll-forming machine and a crew that knows how to hang a thirty-foot run without kinking it.",
     ],
-    image: "/images/hero-gutter-roofline.webp",
-    thumbImage: "/images/gutter-installer-ladder-brick.webp",
-    imageAlt: "Installer and a helper working along a white gutter on a shingle roofline",
+    image: "/images/category-seamless-gutters-hero.webp",
+    thumbImage: "/images/category-seamless-gutters-thumb.webp",
+    imageAlt: "White house with a tile roof and dark downspouts running down the front",
     faqs: [
       {
         question: "Are seamless gutters more expensive?",
@@ -556,9 +556,9 @@ export const categories: Category[] = [
       "Most homes take a K-style gutter. Some don't: Mediterranean and historic homes often call for a half-round profile, older homes may have gutters built into the roof edge, and some porches suit a rain chain better than a downspout.",
       "Specialty work costs more per foot and needs an installer who has done it before. A half-round gutter carries less water than a K-style of the same width, so sizing matters more, not less.",
     ],
-    image: "/images/seamless-gutter-downspout-tile-roof.webp",
-    thumbImage: "/images/seamless-gutter-downspout-mobile.webp",
-    imageAlt: "Close-up of a dark gutter and round downspout under a terracotta tile roof",
+    image: "/images/category-specialty-gutters-hero.webp",
+    thumbImage: "/images/category-specialty-gutters-thumb.webp",
+    imageAlt: "Ornate dragon-shaped copper gutter spout on the eave of a house",
     faqs: [
       {
         question: "Are half-round gutters worth the extra cost?",
@@ -767,9 +767,9 @@ export const categories: Category[] = [
       "Most gutter problems are local: a leaking seam, a section pulled loose from the fascia, a run bent by a fallen limb. Those are repair jobs, and they cost a fraction of replacement.",
       "The hard part of a repair is diagnosing the cause. A gutter that sags might have failed hangers, rotted fascia, or standing water weighing it down from a bad pitch. Patching the symptom without finding the cause means the same call next season.",
     ],
-    image: "/images/gutter-installer-sunset.webp",
-    thumbImage: "/images/gutter-installer-sunset.webp",
-    imageAlt: "Installer working on a dark gutter at the roof edge in late-afternoon sun",
+    image: "/images/category-gutter-repair-hero.webp",
+    thumbImage: "/images/category-gutter-repair-thumb.webp",
+    imageAlt: "Roofing crew working on a brick house with ladders against the eaves",
     faqs: [
       {
         question: "Should I repair or replace my gutters?",
@@ -974,9 +974,9 @@ export const categories: Category[] = [
       "Clogged gutters overflow, and overflow soaks the fascia, stains siding, and pools water at the foundation. Under oaks and pines, the debris load comes back fast, and a wet, packed gutter also weighs enough to pull hangers loose.",
       "Cleaning is the cheapest maintenance on the house, and a good cleaning doubles as an inspection. The person on the ladder sees the sagging run and the leaking seam before they become a repair bill.",
     ],
-    image: "/images/gutter-guards-closeup.webp",
-    thumbImage: "/images/gutter-guards-closeup.webp",
-    imageAlt: "Installer on a telescoping ladder checking a gutter under a dark roof edge",
+    image: "/images/category-gutter-cleaning-hero.webp",
+    thumbImage: "/images/category-gutter-cleaning-thumb.webp",
+    imageAlt: "Roof gutter with weeds and debris growing in it",
     faqs: [
       {
         question: "How often should gutters be cleaned?",
@@ -1181,9 +1181,9 @@ export const categories: Category[] = [
       "A gutter is only as good as where it sends the water. A downspout that empties beside the foundation puts hundreds of gallons of roof water into the soil next to your slab every storm, and that causes cracked walls, damp crawlspaces, and settling far more often than the gutter itself failing.",
       "Downspouts fail quietly: a crushed elbow, a detached section, a clog no one notices until the gutter overflows. Count, size, and outlet location are the three things worth checking on every house.",
     ],
-    image: "/images/seamless-gutter-downspout-tile-roof.webp",
-    thumbImage: "/images/seamless-gutter-downspout-mobile.webp",
-    imageAlt: "Close-up of a dark gutter and round downspout under a terracotta tile roof",
+    image: "/images/category-downspouts-hero.webp",
+    thumbImage: "/images/category-downspouts-thumb.webp",
+    imageAlt: "Dark downspout with a strap ending above a concrete step",
     faqs: [
       {
         question: "How many downspouts does a house need?",
@@ -1390,9 +1390,9 @@ export const categories: Category[] = [
       "Gutter guards cover the trough so leaves and larger debris ride off the roof edge instead of packing the gutter. They come in several styles, and none of them fits every roof, every tree, or every storm.",
       "The right choice depends on what falls on your house and how hard it rains. Oak leaves, pine needles, and shingle grit each behave differently against different guards, and a guard that overshoots in a downpour is worse than no guard at all.",
     ],
-    image: "/images/gutter-guards-closeup.webp",
-    thumbImage: "/images/gutter-guards-closeup.webp",
-    imageAlt: "Installer on a telescoping ladder checking a gutter under a dark roof edge",
+    image: "/images/category-gutter-guards-hero.webp",
+    thumbImage: "/images/category-gutter-guards-thumb.webp",
+    imageAlt: "Dry leaves packed against a roof edge",
     faqs: [
       {
         question: "Do gutter guards work?",
@@ -1600,9 +1600,9 @@ export const categories: Category[] = [
       "When a downspout empties next to the house, the ground near the foundation stays wet. Above-ground extensions solve it on many lots. On flat lots, tight side yards, or where an extension is a tripping hazard, a buried line is the cleaner answer.",
       "Central Florida's sandy soil drains quickly in many areas, but flat lots and a high water table in the wet season can leave water sitting. A good installer checks where your lot actually drains before choosing a discharge point.",
     ],
-    image: "/images/gutter-installer-sunset.webp",
-    thumbImage: "/images/gutter-installer-ladder-mobile.webp",
-    imageAlt: "Installer working on a dark gutter at the roof edge in late-afternoon sun",
+    image: "/images/category-drainage-solutions-hero.webp",
+    thumbImage: "/images/category-drainage-solutions-thumb.webp",
+    imageAlt: "Water pouring from a gutter outlet",
     faqs: [
       {
         question: "Do buried downspout drains clog?",
@@ -1811,9 +1811,9 @@ export const categories: Category[] = [
       "Gutters hang on the fascia board. When that wood is soft from years of overflow, no hanger will hold, and a new gutter on rotted fascia sags along the same line as the old one.",
       "The soffit under the overhang and the drip edge on top of it belong to the same system. A missing drip edge lets water run behind the gutter and onto the fascia, and a damaged soffit lets pests into the attic.",
     ],
-    image: "/images/hero-gutter-roofline.webp",
-    thumbImage: "/images/gutter-installer-ladder-brick.webp",
-    imageAlt: "Installer and a helper working along a white gutter on a shingle roofline",
+    image: "/images/category-fascia-soffit-hero.webp",
+    thumbImage: "/images/category-fascia-soffit-thumb.webp",
+    imageAlt: "Eave of a house with soffit and fascia detail, and pigeons perched on the roof edge",
     faqs: [
       {
         question: "How do I know if my fascia is rotted?",
@@ -2020,9 +2020,9 @@ export const categories: Category[] = [
       "Commercial roofs shed far more water than a house, so the system has to be sized for it. Larger gutters, bigger downspouts, and closer hanger spacing are standard on commercial jobs.",
       "Access and scheduling matter as much as the metal. Lifts, tenant hours, and walkways that can't be blocked all shape how the job runs and what it costs.",
     ],
-    image: "/images/hero-gutter-roofline.webp",
-    thumbImage: "/images/hero-gutter-ladder.webp",
-    imageAlt: "Installer and a helper working along a white gutter on a shingle roofline",
+    image: "/images/category-commercial-gutters-hero.webp",
+    thumbImage: "/images/category-commercial-gutters-thumb.webp",
+    imageAlt: "Yellow commercial building with a gutter and downspout under a blue sky",
     faqs: [
       {
         question: "Do you work outside business hours on commercial jobs?",

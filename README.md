@@ -18,7 +18,7 @@ npm run build    # static export to out/
 - `content/` — all copy as flat TypeScript (site, categories/services, cities, FAQs, testimonials, blog posts)
 - `components/` — shared UI, one component per file
 - `brief/` — reference PDFs of the page templates this site was modelled on (a paving-contractor site). Design/structure reference only; not gutter content.
-- `scripts/` — `generate-icons.mjs`, `generate-og.mjs`
+- `scripts/` — `generate-icons.mjs`, `generate-og.mjs`, `fetch-pexels-images.mjs` (category photos from Pexels by photo id; needs `PEXEL_API` in a gitignored `.env`; credits land in `scripts/image-credits.json`)
 
 ## Environment
 
