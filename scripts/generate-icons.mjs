@@ -1,11 +1,7 @@
-// Builds every logo asset from the single source file
-// public/brand/logo-source.png (transparent PNG):
-//   public/brand/logo.webp      header/footer logo, trimmed
-//   public/brand/logo.png       full-size trimmed PNG for structured data
-//   public/icon.png             512px square favicon, transparent
-//   public/favicon-32.png       32px favicon
-//   public/apple-touch-icon.png 180px, cream background (iOS fills transparency)
-// Rerun with `node scripts/generate-icons.mjs` after replacing the source.
+// Builds the logo and favicon assets:
+//   public/brand/logo-source.png    -> brand/logo.png + brand/logo.webp (banner logo, used in structured data and OG cards)
+//   public/brand/favicon-source.png -> icon.png (512), favicon-32.png, apple-touch-icon.png (180)
+// Rerun with `node scripts/generate-icons.mjs` after replacing either source.
 import { writeFile, readFile } from "node:fs/promises";
 import path from "node:path";
 import sharp from "sharp";
@@ -23,17 +19,18 @@ const webp = await sharp(trimmed).resize({ height: headerHeight }).webp({ qualit
 await writeFile(path.join(root, "public", "brand", "logo.webp"), webp);
 console.log(`brand/logo.webp: ${(webp.length / 1024).toFixed(0)} KB`);
 
-async function square(size, { pad, background }) {
-  const inner = size - pad * 2;
-  const logo = await sharp(trimmed).resize({ width: inner, height: inner, fit: "inside" }).png().toBuffer();
-  return sharp({ create: { width: size, height: size, channels: 4, background } })
-    .composite([{ input: logo, gravity: "centre" }])
-    .png()
-    .toBuffer();
+const faviconSrc = await readFile(path.join(root, "public", "brand", "favicon-source.png"));
+const favicon = await sharp(faviconSrc).trim({ threshold: 5 }).png().toBuffer();
+const fmeta = await sharp(favicon).metadata();
+console.log(`trimmed favicon: ${fmeta.width}x${fmeta.height}`);
+
+async function square(size, background) {
+  const inner = await sharp(favicon).resize({ width: size, height: size, fit: "contain", background: { r: 0, g: 0, b: 0, alpha: 0 } }).png().toBuffer();
+  return sharp({ create: { width: size, height: size, channels: 4, background } }).composite([{ input: inner }]).png().toBuffer();
 }
 
 const clear = { r: 0, g: 0, b: 0, alpha: 0 };
-await writeFile(path.join(root, "public", "icon.png"), await square(512, { pad: 24, background: clear }));
-await writeFile(path.join(root, "public", "favicon-32.png"), await square(32, { pad: 1, background: clear }));
-await writeFile(path.join(root, "public", "apple-touch-icon.png"), await square(180, { pad: 14, background: "#f3efe6" }));
+await writeFile(path.join(root, "public", "icon.png"), await square(512, clear));
+await writeFile(path.join(root, "public", "favicon-32.png"), await square(32, clear));
+await writeFile(path.join(root, "public", "apple-touch-icon.png"), await square(180, "#0f2a52"));
 console.log("icons written");
