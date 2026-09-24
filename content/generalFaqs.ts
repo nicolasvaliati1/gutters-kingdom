@@ -10,7 +10,7 @@ export const generalFaqGroups: FaqGroup[] = [
       {
         question: "What gutter services do you offer?",
         answer:
-          "Gutter installation, seamless gutters, gutter repair and cleaning, and downspouts and gutter guards. Four categories covering everything from one leaking corner to a full-house replacement. See the service directory for specifics.",
+          "Gutter installation, seamless and specialty gutters, repair, cleaning, downspouts, gutter guards, roof drainage, fascia and soffit work, and commercial gutters. Ten categories covering everything from one leaking corner to a full-house replacement. See the service directory for specifics.",
       },
       {
         question: "Do you work on tile, metal, and flat roofs, or only shingle?",

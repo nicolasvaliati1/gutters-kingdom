@@ -168,7 +168,7 @@ export const blogPosts: BlogPost[] = [
         heading: "Downspout Size Changes the Count",
         paragraphs: [
           "A standard 2x3 downspout has an opening of 6 square inches. A 3x4 has 12 square inches. That is twice the capacity from one outlet.",
-          "On a large roof plane, one 3x4 downspout can do the work of two 2x3s. If you're building a system from scratch, upsizing is often cheaper than adding outlets. See our guide to [downspout installation and repair](/downspouts-gutter-guards/downspout-installation-repair) for how installers size them.",
+          "On a large roof plane, one 3x4 downspout can do the work of two 2x3s. If you're building a system from scratch, upsizing is often cheaper than adding outlets. See our guide to [downspout installation and repair](/downspouts/downspout-installation) for how installers size them.",
         ],
       },
       {

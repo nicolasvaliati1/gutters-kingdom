@@ -45,7 +45,7 @@ export function personSchema(author: { name: string; title: string }, url?: stri
 // physical premises) and no telephone/sameAs (no public phone number or
 // social profiles are displayed on the site). No aggregateRating either:
 // add it only once real, verifiable reviews exist. Organization schema
-// covers site-wide identity; areaServed is the state, not a street address.
+// covers site-wide identity; areaServed is the metro area, not a street address.
 export function organizationSchema() {
   return {
     "@context": "https://schema.org",
@@ -55,7 +55,7 @@ export function organizationSchema() {
     logo: `${site.url}/og/home.png`,
     email: site.email,
     areaServed: {
-      "@type": "State",
+      "@type": "AdministrativeArea",
       name: site.serviceArea,
     },
   };

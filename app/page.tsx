@@ -68,7 +68,7 @@ export default function Home() {
           job, so you get one request and one point of contact.
         </p>
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
           {categories.map((category) => (
             <CategoryCard key={category.slug} category={category} />
           ))}

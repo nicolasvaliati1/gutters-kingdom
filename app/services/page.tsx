@@ -77,7 +77,7 @@ export default function ServicesPage() {
         <h2 className="font-display text-3xl text-ink">One Crew for the Whole Roofline</h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal">
           Most homeowners juggle two or three different contractors: one to hang gutters, another
-          for fascia repair, maybe a third for drainage. We run all four categories through one
+          for fascia repair, maybe a third for drainage. We run every category through one
           licensed, insured network instead, which means one schedule, one point of contact, and
           one written estimate covering the whole project instead of three separate ones. Every
           job starts with a free estimate and is backed by a written warranty specific to that

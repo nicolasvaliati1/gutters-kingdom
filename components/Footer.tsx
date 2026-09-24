@@ -9,7 +9,7 @@ export function Footer() {
         <div>
           <p className="font-display text-2xl text-white">{site.name}</p>
           <p className="mt-3 max-w-sm text-sm text-light-text">
-            We connect homeowners with licensed, insured local gutter installers in cities nationwide.
+            We connect homeowners with licensed, insured local gutter installers across {site.serviceArea}.
             Free quotes, no obligation, and a real person on the other end.
           </p>
           <div className="mt-6 space-y-1 text-sm text-light-text">

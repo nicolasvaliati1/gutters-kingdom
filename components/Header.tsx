@@ -69,8 +69,8 @@ export function Header() {
               </button>
 
               {servicesOpen && (
-                <div className="absolute left-1/2 top-full w-[720px] -translate-x-1/2 border-2 border-strong-border bg-white shadow-xl">
-                  <div className="grid grid-cols-4 gap-6 p-6">
+                <div className="absolute left-1/2 top-full max-h-[80vh] w-[760px] -translate-x-1/2 overflow-y-auto border-2 border-strong-border bg-white shadow-xl">
+                  <div className="grid grid-cols-3 gap-x-6 gap-y-7 p-6">
                     {categories.map((category) => (
                       <div key={category.slug}>
                         <Link

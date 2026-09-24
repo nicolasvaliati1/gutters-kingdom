@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     default: `${site.name} | ${site.tagline}`,
     template: `%s | ${site.name}`,
   },
-  description: `${site.name} connects homeowners with licensed, insured local gutter installers in cities nationwide. Free quotes, no obligation, real people.`,
+  description: `${site.name} connects homeowners with licensed, insured local gutter installers across ${site.serviceArea}. Free quotes, no obligation, real people.`,
   icons: {
     icon: "/icon.png",
     apple: "/apple-touch-icon.png",

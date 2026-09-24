@@ -117,8 +117,8 @@ export default function ContactPage() {
             <div>
               <h2 className="font-display text-3xl text-ink">How We Route Your Request</h2>
               <p className="mt-3">
-                Installation, seamless, repair, and downspout requests all go to the same team, but
-                we scope each differently before matching you with an installer:
+                Every request goes to the same team, but we scope each service differently before
+                matching you with an installer:
               </p>
               <ul className="mt-3 space-y-2">
                 {categories.map((category) => (

@@ -12,7 +12,8 @@
 //   - url: PLACEHOLDER until the production domain is connected in Vercel
 //   - email: PLACEHOLDER, not a monitored inbox yet
 //   - hours: PLACEHOLDER
-//   - serviceArea: Florida is the assumed launch market (matches cities.ts)
+//   - serviceArea: Greater Orlando (cities within about 30 miles of
+//     downtown Orlando, per cities.ts)
 //   - indexable: false keeps the site out of search engines (noindex meta
 //     tag + Disallow-all robots.txt). Flip to true at launch, once the real
 //     domain is connected and the placeholders above are replaced.
@@ -23,7 +24,7 @@ export const site = {
   tagline: "Gutter Installation & Repair",
   url: "https://gutters-kingdom.vercel.app",
   email: "hello@gutterskingdom.com",
-  serviceArea: "Florida",
+  serviceArea: "Greater Orlando",
   hours: [
     { days: "Monday – Friday", time: "7:00 AM – 6:00 PM" },
     { days: "Saturday", time: "8:00 AM – 2:00 PM" },
