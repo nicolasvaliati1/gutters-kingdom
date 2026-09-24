@@ -18,25 +18,34 @@ const THUMB = [640, 480];
 
 // { file, id, size }
 const jobs = [
-  { file: "category-specialty-gutters-hero.webp", id: 36393720, size: HERO },
-  { file: "category-specialty-gutters-thumb.webp", id: 36608489, size: THUMB },
-  { file: "category-seamless-gutters-hero.webp", id: 39634958, size: HERO },
-  { file: "category-seamless-gutters-thumb.webp", id: 32546261, size: THUMB },
+  { file: "category-specialty-gutters-hero.webp", id: 17082068, size: HERO },
+  { file: "category-specialty-gutters-thumb.webp", id: 39431967, size: THUMB },
+  { file: "category-seamless-gutters-hero.webp", id: 15662219, size: HERO },
+  { file: "category-seamless-gutters-thumb.webp", id: 15662219, size: THUMB },
   { file: "category-gutter-repair-hero.webp", id: 37677476, size: HERO },
   { file: "category-gutter-repair-thumb.webp", id: 10372434, size: THUMB },
-  { file: "category-gutter-cleaning-hero.webp", id: 39301187, size: HERO },
-  { file: "category-gutter-cleaning-thumb.webp", id: 39301187, size: THUMB },
-  { file: "category-downspouts-hero.webp", id: 3964796, size: HERO },
-  { file: "category-downspouts-thumb.webp", id: 12343741, size: THUMB },
-  { file: "category-gutter-guards-hero.webp", id: 18688864, size: HERO },
-  { file: "category-gutter-guards-thumb.webp", id: 14443170, size: THUMB },
-  { file: "category-drainage-solutions-hero.webp", id: 13307118, size: HERO },
-  { file: "category-drainage-solutions-thumb.webp", id: 4406597, size: THUMB },
-  { file: "category-fascia-soffit-hero.webp", id: 12790288, size: HERO },
-  { file: "category-fascia-soffit-thumb.webp", id: 6307752, size: THUMB },
+  { file: "category-downspouts-hero.webp", id: 30316930, size: HERO },
+  { file: "category-downspouts-thumb.webp", id: 30316930, size: THUMB },
+  { file: "category-drainage-solutions-hero.webp", id: 13793186, size: HERO },
+  { file: "category-drainage-solutions-thumb.webp", id: 2663254, size: THUMB },
+  { file: "category-fascia-soffit-hero.webp", id: 34908640, size: HERO },
+  { file: "category-fascia-soffit-thumb.webp", id: 36817920, size: THUMB },
   { file: "category-commercial-gutters-hero.webp", id: 18239262, size: HERO },
   { file: "category-commercial-gutters-thumb.webp", id: 18289258, size: THUMB },
 ];
+
+// Supplied photos (no Pexels search result shows an actual gutter guard).
+const local = [
+  { file: "category-gutter-guards-hero.webp", from: "gutter-installer-sunset.webp", size: HERO },
+  { file: "category-gutter-guards-thumb.webp", from: "gutter-installer-sunset.webp", size: THUMB, position: "attention" },
+  { file: "category-gutter-cleaning-hero.webp", from: "hero-gutter-roofline.webp", size: HERO },
+  { file: "category-gutter-cleaning-thumb.webp", from: "gutter-guards-closeup.webp", size: THUMB },
+];
+for (const l of local) {
+  const buf = await sharp(path.join("public", "images", l.from)).resize(l.size[0], l.size[1], { fit: "cover", position: l.position ?? "centre" }).webp({ quality: 72, effort: 5 }).toBuffer();
+  writeFileSync(path.join("public", "images", l.file), buf);
+  console.log(l.file, (buf.length / 1024).toFixed(0) + " KB (supplied photo)");
+}
 
 const cache = new Map();
 async function getPhoto(id) {

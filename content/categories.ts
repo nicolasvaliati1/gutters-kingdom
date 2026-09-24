@@ -344,7 +344,7 @@ export const categories: Category[] = [
     ],
     image: "/images/category-seamless-gutters-hero.webp",
     thumbImage: "/images/category-seamless-gutters-thumb.webp",
-    imageAlt: "White house with a tile roof and dark downspouts running down the front",
+    imageAlt: "White gutter and downspout along the shingle roof edge of a brick house",
     faqs: [
       {
         question: "Are seamless gutters more expensive?",
@@ -558,7 +558,7 @@ export const categories: Category[] = [
     ],
     image: "/images/category-specialty-gutters-hero.webp",
     thumbImage: "/images/category-specialty-gutters-thumb.webp",
-    imageAlt: "Ornate dragon-shaped copper gutter spout on the eave of a house",
+    imageAlt: "Stone building with a clay tile roof and rounded copper-toned gutters",
     faqs: [
       {
         question: "Are half-round gutters worth the extra cost?",
@@ -976,7 +976,7 @@ export const categories: Category[] = [
     ],
     image: "/images/category-gutter-cleaning-hero.webp",
     thumbImage: "/images/category-gutter-cleaning-thumb.webp",
-    imageAlt: "Roof gutter with weeds and debris growing in it",
+    imageAlt: "Person on a telescoping ladder reaching into a roof gutter to clear it",
     faqs: [
       {
         question: "How often should gutters be cleaned?",
@@ -1183,7 +1183,7 @@ export const categories: Category[] = [
     ],
     image: "/images/category-downspouts-hero.webp",
     thumbImage: "/images/category-downspouts-thumb.webp",
-    imageAlt: "Dark downspout with a strap ending above a concrete step",
+    imageAlt: "White gutter and downspout on the corner of a white house under a blue sky",
     faqs: [
       {
         question: "How many downspouts does a house need?",
@@ -1392,7 +1392,7 @@ export const categories: Category[] = [
     ],
     image: "/images/category-gutter-guards-hero.webp",
     thumbImage: "/images/category-gutter-guards-thumb.webp",
-    imageAlt: "Dry leaves packed against a roof edge",
+    imageAlt: "Installer working on a gutter at the roof edge in late-afternoon sun",
     faqs: [
       {
         question: "Do gutter guards work?",
@@ -1602,7 +1602,7 @@ export const categories: Category[] = [
     ],
     image: "/images/category-drainage-solutions-hero.webp",
     thumbImage: "/images/category-drainage-solutions-thumb.webp",
-    imageAlt: "Water pouring from a gutter outlet",
+    imageAlt: "Rain running off the edge of a clay tile roof into a gutter",
     faqs: [
       {
         question: "Do buried downspout drains clog?",
@@ -1813,7 +1813,7 @@ export const categories: Category[] = [
     ],
     image: "/images/category-fascia-soffit-hero.webp",
     thumbImage: "/images/category-fascia-soffit-thumb.webp",
-    imageAlt: "Eave of a house with soffit and fascia detail, and pigeons perched on the roof edge",
+    imageAlt: "White fascia and soffit overhang against a blue sky",
     faqs: [
       {
         question: "How do I know if my fascia is rotted?",
