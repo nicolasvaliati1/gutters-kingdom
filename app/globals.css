@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+/*
+ * Brand system for Gutters Kingdom — navy + gold.
+ *
+ * Token names (`yellow`, `rust`, `accent`) are kept from the site this
+ * project was built from so component classes did not need renaming; only
+ * the values changed.
+ *
+ * `yellow` = brand gold. Used as a solid fill (buttons, badges) with
+ * navy `ink` text on top — white text on this gold fails WCAG contrast.
+ * `yellow-bright` = lighter gold for text/borders sitting on dark navy.
+ * `rust` = deep amber-brown used for small accent text and borders on
+ * light backgrounds, where the bright gold would not read (5.9:1 on white).
+ */
+:root {
+  --near-black: #061630;
+  --ink: #0f2a52;
+  --charcoal: #3d4a58;
+  --paper: #f7f8f9;
+  --bone: #f3efe6;
+  --white: #ffffff;
+  --yellow: #f2b62a;
+  --yellow-bright: #f7c948;
+  --yellow-dark: #d99c0f;
+  --yellow-soft: #fbe9b7;
+  --rust: #7a5200;
+  --soft-border: #d9dde3;
+  --strong-border: #0a1f40;
+  --light-text: #dbe3ea;
+  --muted-light-text: #9aacbb;
+
+  /* legacy aliases used across existing components. */
+  --ink-soft: var(--charcoal);
+  --cream: var(--bone);
+  --cream-dark: var(--soft-border);
+  --accent: var(--yellow);
+  --accent-dark: var(--rust);
+  --accent-soft: var(--yellow-soft);
+  --muted: var(--charcoal);
+  --border: var(--soft-border);
+}
+
+@theme inline {
+  --color-near-black: var(--near-black);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-charcoal: var(--charcoal);
+  --color-paper: var(--paper);
+  --color-bone: var(--bone);
+  --color-cream: var(--cream);
+  --color-cream-dark: var(--cream-dark);
+  --color-white: var(--white);
+  --color-yellow: var(--yellow);
+  --color-yellow-bright: var(--yellow-bright);
+  --color-yellow-dark: var(--yellow-dark);
+  --color-yellow-soft: var(--yellow-soft);
+  --color-rust: var(--rust);
+  --color-accent: var(--accent);
+  --color-accent-dark: var(--accent-dark);
+  --color-accent-soft: var(--accent-soft);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-soft-border: var(--soft-border);
+  --color-strong-border: var(--strong-border);
+  --color-light-text: var(--light-text);
+  --color-muted-light-text: var(--muted-light-text);
+  --font-display: var(--font-bebas);
+  --font-serif: var(--font-fraunces);
+  --font-sans: var(--font-inter);
+}
+
+body {
+  background: var(--white);
+  color: var(--ink);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+.font-display {
+  font-family: var(--font-display), "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.font-serif-italic {
+  font-family: var(--font-serif), Georgia, serif;
+  font-style: italic;
+}
+
+.eyebrow {
+  font-family: var(--font-sans), Arial, sans-serif;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--rust);
+  outline-offset: 2px;
+}
