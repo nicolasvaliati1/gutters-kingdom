@@ -43,7 +43,10 @@ export const metadata: Metadata = {
   },
   description: `${site.name} connects homeowners with licensed, insured local gutter installers across ${site.serviceArea}. Free quotes, no obligation, real people.`,
   icons: {
-    icon: "/icon.png",
+    icon: [
+      { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },
+      { url: "/icon.png", sizes: "512x512", type: "image/png" },
+    ],
     apple: "/apple-touch-icon.png",
   },
   ...(site.indexable ? {} : { robots: { index: false, follow: false } }),

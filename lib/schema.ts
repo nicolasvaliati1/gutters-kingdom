@@ -52,7 +52,7 @@ export function organizationSchema() {
     "@type": "Organization",
     name: site.name,
     url: site.url,
-    logo: `${site.url}/og/home.png`,
+    logo: `${site.url}/brand/logo.png`,
     email: site.email,
     areaServed: {
       "@type": "AdministrativeArea",
@@ -129,7 +129,7 @@ export function articleSchema({
       name: site.name,
       logo: {
         "@type": "ImageObject",
-        url: `${site.url}/og/home.png`,
+        url: `${site.url}/brand/logo.png`,
       },
     },
   };

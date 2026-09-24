@@ -74,7 +74,7 @@ function svgFor({ eyebrow, title }) {
   const safeEyebrow = escapeXml(eyebrow.toUpperCase());
   const fontSize = title.length > 26 ? 64 : 92;
   const lineHeight = fontSize * 1.08;
-  const maxCharsPerLine = Math.floor(1020 / (fontSize * 0.46));
+  const maxCharsPerLine = Math.floor(700 / (fontSize * 0.46));
   const lines = wrapLines(title, maxCharsPerLine, fontSize === 64 ? 3 : 2);
   const startY = 360 - ((lines.length - 1) * lineHeight) / 2;
   const titleLines = lines
@@ -102,7 +102,13 @@ async function main() {
 
   for (const page of [...corePages, ...categoryPages, ...blogPages]) {
     const svg = svgFor(page);
-    const buffer = await sharp(Buffer.from(svg)).png().toBuffer();
+    const logo = await sharp(path.join(process.cwd(), "public", "brand", "logo.png"))
+      .resize({ height: 300 })
+      .toBuffer();
+    const buffer = await sharp(Buffer.from(svg))
+      .composite([{ input: logo, left: WIDTH - 300 - 80, top: 165 }])
+      .png()
+      .toBuffer();
     await writeFile(path.join(outDir, page.file), buffer);
     console.log(`generated public/og/${page.file}`);
   }

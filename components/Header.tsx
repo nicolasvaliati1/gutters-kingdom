@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { site } from "@/content/site";
-import { Logo } from "@/components/Logo";
+import Image from "next/image";
 import { categories } from "@/content/categories";
 import { QuoteButton, quoteButtonVariants } from "@/components/QuoteButton";
 
@@ -38,8 +38,14 @@ export function Header() {
       <div className="border-b border-strong-border bg-white">
         <div className="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-6 lg:h-[88px] lg:px-10">
           <Link href="/" className="flex items-center" onClick={closeAll}>
-            <Logo />
-            <span className="sr-only">{`${site.name} — ${site.tagline}`}</span>
+            <Image
+              src="/brand/logo.webp"
+              alt={`${site.name} — ${site.tagline}`}
+              width={243}
+              height={240}
+              priority
+              className="h-14 w-auto lg:h-[76px]"
+            />
           </Link>
 
           <nav className="hidden items-center gap-7 lg:flex" aria-label="Primary">

@@ -1,34 +1,39 @@
-// Generates public/apple-touch-icon.png and public/icon.png from brand
-// colors/initial. One-off asset — rerun only if the brand mark or accent
-// color changes. Run with `node scripts/generate-icons.mjs`.
-import { writeFile } from "node:fs/promises";
+// Builds every logo asset from the single source file
+// public/brand/logo-source.png (transparent PNG):
+//   public/brand/logo.webp      header/footer logo, trimmed
+//   public/brand/logo.png       full-size trimmed PNG for structured data
+//   public/icon.png             512px square favicon, transparent
+//   public/favicon-32.png       32px favicon
+//   public/apple-touch-icon.png 180px, cream background (iOS fills transparency)
+// Rerun with `node scripts/generate-icons.mjs` after replacing the source.
+import { writeFile, readFile } from "node:fs/promises";
 import path from "node:path";
 import sharp from "sharp";
-import { site } from "../content/site.ts";
 
-const INK = "#0f2a52";
-const ACCENT = "#f2b62a";
-const initial = site.shortName.trim().charAt(0).toUpperCase();
+const root = process.cwd();
+const src = await readFile(path.join(root, "public", "brand", "logo-source.png"));
+const trimmed = await sharp(src).trim({ threshold: 5 }).png().toBuffer();
+const meta = await sharp(trimmed).metadata();
+console.log(`trimmed logo: ${meta.width}x${meta.height}`);
 
-function svgFor(size) {
-  const fontSize = Math.round(size * 0.52);
-  return `
-  <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" xmlns="http://www.w3.org/2000/svg">
-    <rect width="${size}" height="${size}" fill="${INK}" />
-    <text x="50%" y="54%" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, serif" font-size="${fontSize}" fill="${ACCENT}">${initial}</text>
-  </svg>`;
+await writeFile(path.join(root, "public", "brand", "logo.png"), trimmed);
+
+const headerHeight = 240;
+const webp = await sharp(trimmed).resize({ height: headerHeight }).webp({ quality: 88, alphaQuality: 100, effort: 6 }).toBuffer();
+await writeFile(path.join(root, "public", "brand", "logo.webp"), webp);
+console.log(`brand/logo.webp: ${(webp.length / 1024).toFixed(0)} KB`);
+
+async function square(size, { pad, background }) {
+  const inner = size - pad * 2;
+  const logo = await sharp(trimmed).resize({ width: inner, height: inner, fit: "inside" }).png().toBuffer();
+  return sharp({ create: { width: size, height: size, channels: 4, background } })
+    .composite([{ input: logo, gravity: "centre" }])
+    .png()
+    .toBuffer();
 }
 
-async function main() {
-  const outDir = path.join(process.cwd(), "public");
-
-  const appleTouch = await sharp(Buffer.from(svgFor(180))).png().toBuffer();
-  await writeFile(path.join(outDir, "apple-touch-icon.png"), appleTouch);
-  console.log("generated public/apple-touch-icon.png");
-
-  const icon = await sharp(Buffer.from(svgFor(512))).png().toBuffer();
-  await writeFile(path.join(outDir, "icon.png"), icon);
-  console.log("generated public/icon.png");
-}
-
-main();
+const clear = { r: 0, g: 0, b: 0, alpha: 0 };
+await writeFile(path.join(root, "public", "icon.png"), await square(512, { pad: 24, background: clear }));
+await writeFile(path.join(root, "public", "favicon-32.png"), await square(32, { pad: 1, background: clear }));
+await writeFile(path.join(root, "public", "apple-touch-icon.png"), await square(180, { pad: 14, background: "#f3efe6" }));
+console.log("icons written");

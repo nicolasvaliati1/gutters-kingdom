@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { site } from "@/content/site";
 import { categories } from "@/content/categories";
@@ -7,7 +8,15 @@ export function Footer() {
     <footer className="border-t border-strong-border bg-near-black text-light-text">
       <div className="mx-auto grid max-w-7xl gap-12 px-6 py-16 lg:grid-cols-[1.3fr_1fr_1fr_1fr] lg:px-10">
         <div>
-          <p className="font-display text-2xl text-white">{site.name}</p>
+          <Image
+            src="/brand/logo.webp"
+            alt=""
+            width={243}
+            height={240}
+            loading="lazy"
+            className="h-24 w-auto"
+          />
+          <p className="font-display mt-4 text-2xl text-white">{site.name}</p>
           <p className="mt-3 max-w-sm text-sm text-light-text">
             We connect homeowners with licensed, insured local gutter installers across {site.serviceArea}.
             Free quotes, no obligation, and a real person on the other end.
