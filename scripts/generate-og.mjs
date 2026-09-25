@@ -25,6 +25,9 @@ const corePages = [
   { file: "about.png", eyebrow: site.name, title: "About" },
   { file: "faq.png", eyebrow: site.name, title: "Frequently Asked Questions" },
   { file: "contact.png", eyebrow: site.name, title: "Contact" },
+  { file: "terms.png", eyebrow: site.name, title: "Terms of Service" },
+  { file: "privacy.png", eyebrow: site.name, title: "Privacy Policy" },
+  { file: "accessibility.png", eyebrow: site.name, title: "Accessibility Statement" },
 ];
 
 const categoryPages = categories.map((category) => ({

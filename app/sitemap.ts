@@ -7,7 +7,7 @@ import { blogPosts } from "@/content/blogPosts";
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const routes = ["", "/blog", "/services", "/about", "/faq", "/contact"];
+  const routes = ["", "/blog", "/services", "/about", "/faq", "/contact", "/terms", "/privacy", "/accessibility"];
   const categoryRoutes = categories.map((category) => `/${category.slug}`);
   const serviceRoutes = allServices().map(
     ({ category, service }) => `/${category.slug}/${service.slug}`
